@@ -15,25 +15,47 @@
 
 <body>
   <div class="container">
-    <header>
-      <div class="header-text-box">
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="DKYF-title" src="name.JPG" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#Intro"><strong>Introduction</strong></a></li>
+          <li><a class="main-nav-link" href="#Hobby"><strong>Hobbies</strong></a></li>
+          <li>
+            <a class="main-nav-link" href="#Motto"><strong>Motto</strong></a>
+          </li>
+          <li><a class="main-nav-link" href="#Work"><strong>Experiences</strong></a></li>
+          <!-- <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li> -->
+        </ul>
+      </nav>
+
+      <!-- <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button> -->
+    </header>
+    <main>
+      <div class="main-text-box">
         <h1>Hello, こんにちは, 你好, Namaste!</h1>
-        <p class="header-text">
+        <p class="main-text">
           Nice to e-meet you! I'm Darius Koh, and I'm currently working as a Regional Financial Analyst
           with Siemens Healthineers in Singapore.
         </p>
-        <p class="header-text2">
+        <p class="main-text2">
           I'm enthusiastic about learning new skills and knowledge to push myself to greather heights! 😊
         </p>
         <a class="btn btn--big" href="https://www.linkedin.com/in/darius-koh-yu-feng/" target="_blank">Click here to
           connect!</a>
       </div>
-      <img src="DKYF.JPG" alt="DKYF" />
-    </header>
+      <img src="DKYF.JPG" alt="DKYF" id="Intro" />
+    </main>
 
     <section>
-      <h2 class="hobbies">What are my hobbies?</h2>
-      <div class="grid-3-cols">
+      <h2 class="hobbies" id="Hobby">What are my hobbies?</h2>
+      <div class=" grid-3-cols">
         <div>
           <img src="exercise.JPG" alt="exercise" height=260px width=700px />
           <a href="https://www.outsideonline.com/health/training-performance/weight-lifting-training-beginners/"
@@ -88,9 +110,9 @@
       </div>
     </section>
 
-    <section class="testimonial-section">
+    <section class="testimonial-section" id="Motto">
       <div class="grid-3-cols-2">
-        <img src="perserverance.JPG" alt="perserverance" height=300px />
+        <img src="perserverance.JPG" alt="perserverance" height=280px />
 
         <div class="testimonial-box">
           <h2>"It's okay to fail. It's not okay to give up."</h2>
@@ -111,7 +133,7 @@
     </section>
 
     <section>
-      <h2 class="work-exp">Previous Work Experiences</h2>
+      <h2 class="work-exp" id="Work">Previous Work Experiences</h2>
       <div class="grid-3-cols">
         <figure class="chair">
           <img src="EY.JPG" href="#" alt="EY" height=90px />
@@ -264,7 +286,7 @@
           <img src="perserverance.JPG" alt="perserverance" height=300px />
 
           <div class="testimonial-box">
-            <h2>Stay tuned for more updates!</h2>
+            <h2>Stay tune for more updates!</h2>
             <!-- <p class="testimonial-author">&mdash; Benjamin Franklin</p> -->
             <!-- <p class="testimonial-text">
               As an individual who seeks challenges, I am never afraid to step out
