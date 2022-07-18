@@ -33,7 +33,7 @@ nav .navbar .nav-items {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 80%;
 }
 
 nav .navbar .nav-items li {
