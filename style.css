@@ -132,3 +132,22 @@ nav .navbar .nav-items li a:hover {
   color: white;
   background: #1abc9c;
 }
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  margin-right: 0;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
