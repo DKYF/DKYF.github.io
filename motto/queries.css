@@ -1,6 +1,6 @@
 @media (max-width: 544px) {
   html {
-    font-size: 60%;
+    font-size: 100%;
   }
 
   /* MOBILE NAVIGATION */
@@ -40,6 +40,7 @@
   }
   .nav-items li {
     margin-top: 20px;
+    font-size: 20px;
   }
 
   .nav-open .nav-items {
@@ -127,7 +128,7 @@
 
 @media screen and (min-width: 545px) and (max-width: 944px) {
   html {
-    font-size: 85%;
+    font-size: 100%;
   }
 
   /* MOBILE NAVIGATION */
@@ -168,6 +169,7 @@
   }
   .nav-items li {
     margin-top: 20px;
+    font-size: 20px;
   }
 
   .nav-open .nav-items {
@@ -306,6 +308,7 @@
   }
   .nav-items li {
     margin-top: 20px;
+    font-size: 20px;
   }
 
   .nav-open .nav-items {
