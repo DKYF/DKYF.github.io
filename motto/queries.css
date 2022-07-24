@@ -1,8 +1,10 @@
 @media (max-width: 544px) {
   html {
-    font-size: 100%;
+    font-size: 75%;
   }
-
+  body nav .navbar {
+    font-size: 133%;
+  }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -40,7 +42,7 @@
   }
   .nav-items li {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav-open .nav-items {
@@ -169,7 +171,7 @@
   }
   .nav-items li {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav-open .nav-items {
@@ -308,7 +310,7 @@
   }
   .nav-items li {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav-open .nav-items {

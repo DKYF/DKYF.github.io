@@ -3,6 +3,10 @@
     font-size: 50%;
   }
 
+  body nav .navbar {
+    font-size: 200%;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -40,7 +44,7 @@
   }
   .nav-items li {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav-open .nav-items {
@@ -152,7 +156,6 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     align-content: center;
-    margin-top: 2%;
   }
 
   .grid img,
@@ -175,7 +178,11 @@
 
 @media screen and (min-width: 545px) and (max-width: 944px) {
   html {
-    font-size: 85%;
+    font-size: 80%;
+  }
+
+  body nav .navbar {
+    font-size: 125%;
   }
 
   /* MOBILE NAVIGATION */
@@ -216,7 +223,7 @@
   }
   .nav-items li {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav-open .nav-items {
@@ -392,7 +399,7 @@
   }
   .nav-items li {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav-open .nav-items {
