@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
 nav {
@@ -162,10 +163,9 @@ nav .navbar .nav-items li a:hover {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* justify-items: center;
-  align-items: center; */
+  justify-items: center;
+  align-items: center;
   margin-top: 40px;
-  height: 200px;
 }
 
 .grid img,
@@ -174,4 +174,23 @@ nav .navbar .nav-items li a:hover {
   align-self: center;
   margin-top: 20px;
   color: white;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  margin-right: 0;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
