@@ -68,17 +68,6 @@
     font-size: 3rem;
   }
 
-  .DKYF {
-    position: absolute;
-    margin-top: 100px;
-    left: 60%;
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 20px;
-    opacity: 90%;
-  }
-
   .container {
     margin-top: 5%;
     margin-left: 5%;
@@ -133,8 +122,7 @@
     margin-top: 100px;
     left: 60%;
     width: 20%;
-    height: 30%;
-    object-fit: cover;
+    height: 40%;
     border-radius: 20px;
     opacity: 90%;
   }
