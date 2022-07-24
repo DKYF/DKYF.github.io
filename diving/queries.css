@@ -83,6 +83,7 @@
   .container {
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 0;
   }
 
   .container h2 {
@@ -156,6 +157,7 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     align-content: center;
+    margin-top: 10px;
   }
 
   .grid img,
