@@ -1,4 +1,8 @@
 @media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -128,8 +132,8 @@
     position: absolute;
     margin-top: 100px;
     left: 60%;
-    width: 200px;
-    height: 400px;
+    width: 20%;
+    height: 30%;
     object-fit: cover;
     border-radius: 20px;
     opacity: 90%;
