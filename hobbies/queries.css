@@ -150,7 +150,6 @@
     grid-column: 2/4;
     grid-row: 1/2;
     align-self: center;
-    padding: 5%;
   }
 
   .title2 {
@@ -163,7 +162,6 @@
     grid-column: 2/4;
     grid-row: 3/4;
     align-self: center;
-    padding: 5%;
   }
 
   .title3 {
@@ -176,7 +174,12 @@
     grid-column: 2/4;
     grid-row: 5/6;
     align-self: center;
-    padding: 5%;
+  }
+
+  .gridtext1,
+  .gridtext2,
+  .gridtext3 {
+    padding: 0 0 0 5%;
   }
 
   .back {
