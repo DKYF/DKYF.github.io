@@ -80,6 +80,14 @@
     box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
   }
 
+  .flex {
+    display: flex;
+    justify-items: space-between;
+    align-items: flex-start;
+    margin-top: 2.5%;
+    margin-left: 5%;
+  }
+
   .container {
     margin-left: 5%;
     margin-right: 5%;
@@ -88,7 +96,7 @@
 
   .container h2 {
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700px;
     text-transform: uppercase;
     word-spacing: 7px;
@@ -98,20 +106,20 @@
   .p1,
   .p2 {
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 400px;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 5px;
   }
 
   .p3 {
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 400px;
     width: 100%;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
   }
 
   .container a {
@@ -157,7 +165,7 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     align-content: center;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .grid img,
