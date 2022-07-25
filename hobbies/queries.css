@@ -98,20 +98,20 @@
 
   .grid img {
     border-radius: 8px;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 0.1fr;
     justify-items: center;
     align-items: center;
     gap: 0;
     margin-top: 0;
     gap: 0;
-    margin: 0 15%;
+    margin: 0 10%;
     height: 100%;
   }
 
@@ -141,42 +141,42 @@
   }
 
   .title1 {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1/2;
     align-self: start;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   .gridtext1 {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1/2;
     align-self: center;
     padding: 5%;
   }
 
   .title2 {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 3/4;
     align-self: start;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   .gridtext2 {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 3/4;
     align-self: center;
     padding: 5%;
   }
 
   .title3 {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 5/6;
     align-self: start;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   .gridtext3 {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 5/6;
     align-self: center;
     padding: 5%;
@@ -192,7 +192,7 @@
     font-size: 1em;
     font-style: bold;
     font-weight: 600px;
-    padding: 10px 22px;
+    padding: 0 0;
     text-decoration: none;
     transition: all 0.3s;
     margin-top: 0px;
@@ -237,7 +237,11 @@
 
 @media screen and (min-width: 545px) and (max-width: 944px) {
   html {
-    font-size: 100%;
+    font-size: 80%;
+  }
+
+  body nav .navbar {
+    font-size: 125%;
   }
 
   /* MOBILE NAVIGATION */
@@ -330,6 +334,12 @@
 
   .grid img {
     border-radius: 8px;
+  }
+
+  .grid img {
+    border-radius: 8px;
+    height: 175px;
+    width: 175px;
   }
 
   .grid {
