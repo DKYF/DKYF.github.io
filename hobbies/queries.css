@@ -1,0 +1,544 @@
+@media (max-width: 544px) {
+  html {
+    font-size: 60%;
+  }
+
+  body nav .navbar {
+    font-size: 167%;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-items {
+    /* background-color: red; */
+    background-color: rgba(24, 21, 21, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 1200px; */
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+    z-index: 998;
+  }
+  .nav-items li {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .nav-open .nav-items {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  nav .navbar .nav-items {
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .nav-items:link,
+  .nav-items:visited {
+    font-size: 3rem;
+  }
+
+  nav {
+    line-height: 70px;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 0 5%;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
+  }
+
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .grid img {
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 0.1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 0;
+    margin-top: 0;
+    gap: 0;
+    margin: 0 15%;
+    height: 100%;
+  }
+
+  .credits1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .food {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .credits2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .anime {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .credits3 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .title1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: start;
+    margin-top: 5%;
+  }
+
+  .gridtext1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    padding: 5%;
+  }
+
+  .title2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: start;
+    margin-top: 5%;
+  }
+
+  .gridtext2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: center;
+    padding: 5%;
+  }
+
+  .title3 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    align-self: start;
+    margin-top: 5%;
+  }
+
+  .gridtext3 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    align-self: center;
+    padding: 5%;
+  }
+
+  .back {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+
+  .back {
+    color: white;
+    font-size: 1em;
+    font-style: bold;
+    font-weight: 600px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-top: 0px;
+  }
+
+  .back a:hover {
+    color: white;
+    background: #1abc9c;
+    padding: 10px 22px;
+  }
+
+  .grid a {
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+  }
+
+  .grid div {
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .grid p {
+    font-size: 1em;
+    color: white;
+  }
+
+  .grid a:hover {
+    color: #1abc9c;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 8px;
+  }
+
+  .gridtext {
+    align-self: start;
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 944px) {
+  html {
+    font-size: 100%;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-items {
+    /* background-color: blue; */
+    background-color: rgba(24, 21, 21, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 1200px; */
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+    z-index: 998;
+  }
+  .nav-items li {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .nav-open .nav-items {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  nav .navbar .nav-items {
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .nav-items:link,
+  .nav-items:visited {
+    font-size: 3rem;
+  }
+
+  nav {
+    line-height: 70px;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 0 5%;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
+  }
+
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    width: 100%;
+  }
+
+  .grid img {
+    border-radius: 8px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5fr 1fr 2fr auto;
+    justify-items: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .back {
+    margin-top: 20px;
+    color: white;
+    font-size: 1em;
+    font-style: bold;
+    font-weight: 600px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .back a:hover {
+    color: white;
+    background: #1abc9c;
+    padding: 10px 22px;
+  }
+
+  .grid a {
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+  }
+
+  .grid div {
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .grid p {
+    font-size: 1em;
+    color: white;
+  }
+
+  .grid a:hover {
+    color: #1abc9c;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 8px;
+  }
+
+  .gridtext {
+    align-self: start;
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (min-width: 945px) and (max-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-items {
+    /* background-color: blue; */
+    background-color: rgba(24, 21, 21, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 1200px; */
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+    z-index: 998;
+  }
+  .nav-items li {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .nav-open .nav-items {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  nav .navbar .nav-items {
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .nav-items:link,
+  .nav-items:visited {
+    font-size: 3rem;
+  }
+
+  nav {
+    line-height: 70px;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 0 5%;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
+  }
+
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    width: 100%;
+  }
+
+  .grid img {
+    border-radius: 8px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5fr 1fr 2fr auto;
+    justify-items: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .back {
+    margin-top: 20px;
+    color: white;
+    font-size: 1em;
+    font-style: bold;
+    font-weight: 600px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .back a:hover {
+    color: white;
+    background: #1abc9c;
+    padding: 10px 22px;
+  }
+
+  .grid a {
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+  }
+
+  .grid div {
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .grid p {
+    font-size: 1em;
+    color: white;
+  }
+
+  .grid a:hover {
+    color: #1abc9c;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 8px;
+  }
+
+  .gridtext {
+    align-self: start;
+    padding: 0 4rem;
+  }
+}
