@@ -1,6 +1,6 @@
 @media (max-width: 544px) {
   html {
-    font-size: 40%;
+    font-size: 20%;
   }
 
   body nav .navbar {
@@ -118,17 +118,17 @@
   }
 
   .box .content div {
-    font-size: 0.4em;
+    font-size: 3px;
     text-align: left;
     margin-top: 0.5em;
   }
 
   .box .content h4 {
-    font-size: 0.7em;
+    font-size: 5px;
   }
 
   .box .content p {
-    font-size: 0.7em;
+    font-size: 5px;
   }
 
   .box:hover {
