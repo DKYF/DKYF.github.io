@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  /* overflow: hidden; */
 }
 
 nav {
@@ -63,17 +64,6 @@ nav .navbar .nav-items li a:hover {
   opacity: 75%;
 }
 
-.DKYF {
-  position: absolute;
-  margin-top: 100px;
-  left: 60%;
-  width: 25%;
-  height: 60%;
-  object-fit: cover;
-  border-radius: 20px;
-  opacity: 90%;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -97,41 +87,6 @@ nav .navbar .nav-items li a:hover {
   word-spacing: 7px;
   width: 100%;
   text-align: center;
-}
-
-.p1,
-.p2 {
-  color: white;
-  font-size: 1.1em;
-  font-weight: 400px;
-  width: 50%;
-  padding-top: 25px;
-}
-
-.p3 {
-  color: white;
-  font-size: 1.1em;
-  font-weight: 400px;
-  width: 50%;
-  padding-bottom: 25px;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
-.container a {
-  color: black;
-  font-size: 1.1em;
-  font-style: bold;
-  font-weight: 600px;
-  background: white;
-  padding: 10px 22px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.container a:hover {
-  color: white;
-  background: #1abc9c;
 }
 
 .main {
@@ -228,9 +183,9 @@ nav .navbar .nav-items li a:hover {
 }
 
 .box .button a {
-  color: black;
+  color: white;
   text-decoration: none;
-  background: navajowhite;
+  background: grey;
   padding: 10px 10px;
   border-radius: 8px;
 }
@@ -259,4 +214,23 @@ nav .navbar .nav-items li a:hover {
   color: white;
   background: #1abc9c;
   padding: 10px 22px;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  margin-right: 0;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
