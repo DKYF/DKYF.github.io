@@ -118,7 +118,7 @@
   }
 
   .box .content div {
-    font-size: 5px;
+    font-size: 6.5px;
     text-align: left;
     margin-top: 0.5em;
   }
@@ -128,7 +128,7 @@
   }
 
   .box .content p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .box:hover {
@@ -174,8 +174,8 @@
   .box .content p {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    padding: 0.5em 0;
-    margin: 1em 1.5em;
+    padding: 2px 0;
+    margin: 0.5em 1.5em;
   }
 
   .box .content h4 {
