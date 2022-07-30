@@ -1,75 +1,326 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Darius Koh</title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="queries.css" />
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <script defer src="script.js"></script>
+
+  <title>DKYF's Bio</title>
 
 </head>
 
 <body>
-  <nav>
-    <ul class="navbar" name="navbar">
-      <div class="logo">
-        <h3>DKYF</h3>
+  <header class="header">
+    <a href="#" class="header1"><strong>DKYF</strong></a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#hobbies">Hobbies</a></li>
+        <li><a class="main-nav-link" href="#work">Experiences</a></li>
+        <li><a class="main-nav-link" href="#motto">Motto</a></li>
+        <li><a class="main-nav-link" href="#photos">Photos</a></li>
+        <li><a class="main-nav-link" href="old.html">Prior Version</a></li>
+      </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
+  <main data-aos="fade-up">
+    <section class="introduction">
+      <div class="introduction1">
+        <div class="intro-text-box">
+          <h1 class="heading-primary">
+            Hello, こんにちは, 你好, Namaste, Bonjour, Olá!</h1>
+          <p class="intro-description">
+            Nice to e-meet you! 👋 I'm Darius Koh, and I'm currently working as a Regional Financial Analyst
+            with Siemens Healthineers in Singapore.</p>
+          <p class="intro-description">
+            I'm enthusiastic about learning new skills and knowledge to push
+            myself to greater heights! As I am really keen in building an online personal webpage,
+            I decided to embark on a journey to learn Web Development.😊</p>
+          <p class="intro-description">
+            If you have any ideas or recommendations to improve my site, please
+            feel free to connect with me on LinkedIn and let's have coffee together! ☕</p>
+          <a class="linkedin" href="https://www.linkedin.com/in/darius-koh-yu-feng/" target="_blank""><strong>Find Me Here!</strong></a>
+        </div>
+        <div class=" intro-imgbox">
+            <picture><img src=" DKYF.JPG" class="intro-img"></picture>
+        </div>
       </div>
-      <div class="nav-items">
-        <li><a href="index.html">Introduction</a></li>
-        <li><a href="hobbies.html">Hobbies</a></li>
-        <li><a href="motto.html">Motto</a></li>
-        <li><a href="work.html">Experiences</a></li>
-        <li><a href="diving.html">Photos</a></li>
-        <li><a href="birthday.html">Album</a></li>
-        <li><a href="prior.html" target="_blank">Prior Version</a></li>
+      <video autoplay muted loop playsinline class="vid1">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+      <h2 class="heading-secondary">
+        What are my hobbies?
+      </h2>
+
+
+      <div class="container grid grid--2-cols grid--center-v">
+        <!-- 1st Hobby -->
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">
+            Exercise & Keep Fit!
+          </h3>
+          <p class="step-description">
+            My routine includes weightlifting at least twice a week and I also go for a short jog every weekend.
+            Feel free to hit me up for a session together!
+          </p>
+          <p class="step-description1">
+            <strong>Favourites</strong>: Bench Press, Pull-ups and Squats
+          </p>
+          <p class="step-description2">
+            <strong>Most Hated</strong>: Long distance running 🙅‍♂️
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img src="hobbies/exercise.jpg" class="step-img1" alt="iPhone app
+            preferences selection screen" />
+          <a href="https://www.outsideonline.com/health/training-performance/weight-lifting-training-beginners/"
+            target="_blank" class="credits1"><strong>Image by Outside</strong></a>
+        </div>
+
+        <!-- 2nd Hobby -->
+        <div class="step-img-box">
+          <img src="hobbies/food.jpg" class="step-img2" alt="iPhone app
+            meal approving plan screen" />
+          <a href="https://thehoneycombers.com/singapore/best-local-food-singapore/" target="_blank"
+            class="credits2"><strong>Image
+              by HONEYCOMBERS</strong></a>
+        </div>
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Enjoy Yummy Food!</h3>
+          <p class="step-description">
+            My favourite food are Nasi Lemak, Prawn Noodles, Carbonara, Chirashi Don and many many more!
+          </p>
+          <p class="step-description1">
+            <strong>Favourite Hangout Spot</strong>: Bedok 85 Market
+          </p>
+          <p class="step-description2">
+            <strong>Dislikes</strong>: Steamed Vegetables 🚫
+          </p>
+        </div>
+
+        <!-- 3rd Hobby -->
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Binge on Animes!</h3>
+          <p class="step-description">
+            Animes are relatable as it expresses vibrancy in its characters with dreams and goals.
+            Furthermore, the action and fight scenes are amazing!
+          </p>
+          <p class="step-description1">
+            <strong>Personal Favourites</strong>: Overlord, Demon Slayer and Classroom of the Elite
+          </p>
+        </div>
+        <div class="step-img-box">
+          <img src="hobbies/anime.jpg" class="step-img3" alt="iPhone app
+            delivery screen" />
+          <a href="https://www.imdb.com/title/tt9335498/?ref_=tt_mv_close" target="_blank"
+            class="credits3"><strong>Image
+              by
+              IMDB</strong></a>
+        </div>
       </div>
+    </section>
 
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
+    <section class="work" id="work">
+      <h2 class="heading-secondary-work">
+        Work Experiences
+      </h2>
 
-    </ul>
-  </nav>
-  <video autoplay muted loop playsinline class="vid1">
-    <source src="video.mp4" type="video/mp4">
-  </video>
-  <img src="DKYF.JPG" alt="DKYF" id="DKYF" class="DKYF" data-aos="fade-up" />
-  <div class="overlay"></div>
-  <div class="container" data-aos="fade-up">
-    <h2>Hello, こんにちは, 你好, Namaste, Bonjour, Olá!</h2>
-    <p class="p1">Nice to e-meet you! 👋 I'm Darius Koh, and I'm currently working as a Regional Financial Analyst
-      with Siemens Healthineers in Singapore.</p>
-    <p class="p2">I'm enthusiastic about learning new skills and knowledge to push
-      myself to greather heights! As I am really keen in building an online personal webpage,
-      I decided to embark on a journey to learn Web Development.😊
-    </p>
-    <p class="p3">If you have any ideas or recommendations to improve my site, please
-      feel free to connect with me on LinkedIn and let's have coffee together! ☕
-    </p>
-    <a href="https://www.linkedin.com/in/darius-koh-yu-feng/" target="_blank""><strong>Find Me Here!</strong></a>
-  </div>
+      <div class="main">
+        <div class="box">
+          <div class="box-img">
+            <img src="work/EY.JPG">
+          </div>
+          <div class="content">
+            <h4>EY Corporate Advisors</h4>
+            <p>Transaction Advisory Associate</p>
+            <div>🎫 Assisted senior managers with financial due diligence processes
+              such as:</div>
+            <div>[1] Reconciliation of management accounts to audited financial statements and</div>
+            <div>[2] Building of Revenue and Cost bridges to understand the key business drivers</div>
+          </div>
+          <div class="button">
+            <a href="https://www.ey.com/en_sg" target="_blank">Website</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="work/GFC.JPG">
+          </div>
+          <div class="content">
+            <h4>Global Founders Capital</h4>
+            <p>Venture Capital Research Intern</p>
+            <div>🔎 Researched on Seed to Series A investment opportunities in key sectors within Asia</div>
+            <div>🎟 Assisted senior managers with due diligence checks on financial data (e.g. cohort analysis and
+              review of unit economics)</div>
+            <div>🧾 Prepared pitchbooks for management reviews</div>
+          </div>
+          <div class="button">
+            <a href="https://www.globalfounderscapital.com/" target="_blank">Website</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="work/xincap.JPG">
+          </div>
+          <div class="content">
+            <h4>XINCAP Pte. Ltd.</h4>
+            <p>Finance & Operations Intern</p>
+            <div>⛏ Pioneering team to establish CEMANI Snacks, Singapore’s first
+              premium brand of fried chicken skin product </div>
+            <div>📔 Assisted senior management team with CEMANI’s financial projections and fundraising deck
+            </div>
+          </div>
+          <div class="button">
+            <a href="https://www.xincap.co/" target="_blank">Website</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="work/Wilmar.JPG">
+          </div>
+          <div class="content">
+            <h4>Wilmar International</h4>
+            <p>Finance & Operations Intern</p>
+            <div>⛳ Accomplished a 10-week management programme in India with exposure and
+              hands-on sessions in all corporate functions (Marketing, Sales, Supply Chain &
+              Finance) of the company to understand India’s edible oil market</div>
+          </div>
+          <div class="button">
+            <a href="https://www.wilmar-international.com/" target="_blank">Website</a>
+          </div>
+        </div>
+      </div>
+      <video autoplay muted loop playsinline class="vid2">
+        <source src="work/work.mp4" type="video/mp4">
+      </video>
+      <div class="overlay2"></div>
+    </section>
 
-  <script src=" https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+    <section class="motto" id="motto">
+      <h2 class="heading-secondary">
+        Life Motto
+      </h2>
+
+      <div class="container grid--2-cols-2">
+        <!-- Life Motto -->
+        <div class=" step-text-box">
+          <h3 class="heading-tertiary">
+            "It's okay to fail. It's not okay to give up."
+          </h3>
+          <p class="step-description3">
+            As an individual who seeks challenges, I am never afraid to step out
+            of my comfort zone and explore new opportunities.
+          </p>
+          <p class="step-description3">
+            I sincerely believe that as long as I am willing to strive for excellence and give it my best, I will
+            definitely become a stronger and more confident professional. 👨‍🏫
+          </p>
+          <p class="step-description3">
+            Regardless of success or failure, this is
+            already a big win for my personal development!
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img src="motto/motto.jpg" class="step-img" alt="iPhone app
+            preferences selection screen" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <section class="photos" id="photos">
+        <h2 class="heading-secondary">
+          Photo Gallery
+        </h2>
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="image"><span><img src="photos/img1.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img2.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img3.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img4.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img5.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img6.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img7.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img8.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img9.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img10.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img11.png" alt=""></span></div>
+            <div class="image"><span><img src="photos/img12.png" alt=""></span></div>
+          </div>
+        </div>
+
+      </section>
+    </section>
+
+
+
+  </main>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
+<footer class="footer">
+  <div class="container grid grid--footer">
+    <div class="logo-col">
+      <a class="footer-logo">
+        <p><strong>Other Social Media Channels:</strong></p>
+      </a>
 
+      <ul class="social-links">
+        <li>
+          <a class="footer-link" href="https://www.instagram.com/koh_yu_feng/" target="_blank">
+            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="https://www.facebook.com/KohYuFeng/" target="_blank">
+            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="">
+            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <p class="copyright">
+        Copyright &copy; <span class="year">2022</span> by Darius Koh Yu Feng.
+        All rights reserved.
+      </p>
+    </div>
+  </div>
 
 </html>

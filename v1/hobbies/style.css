@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+nav {
+  line-height: 70px;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 0 80px;
+  box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+nav .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .navbar h3 {
+  font-size: 1.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+  color: white;
+  letter-spacing: 7px;
+}
+
+nav .navbar .nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+nav .navbar .nav-items li {
+  list-style: none;
+}
+
+nav .navbar .nav-items li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s;
+}
+
+nav .navbar .nav-items li a:hover {
+  color: #1abc9c;
+}
+
+.vid1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  opacity: 75%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.container {
+  margin: 30px 80px 0px 80px;
+}
+
+.container h2 {
+  color: white;
+  font-size: 3em;
+  font-weight: 700px;
+  text-transform: uppercase;
+  word-spacing: 7px;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.grid img {
+  border-radius: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5fr 1fr 2fr auto;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.back {
+  margin-top: 20px;
+  color: white;
+  font-size: 1.1em;
+  font-style: bold;
+  font-weight: 600px;
+  padding: 10px 22px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.back a:hover {
+  color: white;
+  background: #1abc9c;
+  padding: 10px 22px;
+}
+
+.grid a {
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s;
+}
+
+.grid div {
+  font-size: 1.5em;
+  color: white;
+}
+
+.grid p {
+  font-size: 1.1em;
+  color: white;
+}
+
+.grid a:hover {
+  color: #1abc9c;
+  background-color: white;
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+
+.gridtext1,
+.gridtext2,
+.gridtext3 {
+  align-self: start;
+  padding: 0 4rem;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  margin-right: 0;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
