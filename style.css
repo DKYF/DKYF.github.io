@@ -553,3 +553,32 @@ body {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+
+.nav-img {
+  display: none;
+}
+
+.vid3 {
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+  border-radius: 2rem;
+}
+
+img.vid4 {
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+  border-radius: 2rem;
+  opacity: 90%;
+}
+/* .vid3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  opacity: 75%;
+} */

@@ -21,6 +21,12 @@
     z-index: 9999;
   }
 
+  .nav-img {
+    display: block;
+    width: 20rem;
+    border-radius: 2rem;
+  }
+
   .main-nav {
     /* background-color: red; */
     background-color: rgba(24, 21, 21, 0.9);
@@ -70,7 +76,7 @@
 
   .main-nav-list {
     flex-direction: column;
-    gap: 7.2rem;
+    gap: 3rem;
   }
 
   .main-nav-link:link,
@@ -143,6 +149,12 @@
     z-index: 9999;
   }
 
+  .nav-img {
+    display: block;
+    width: 20rem;
+    border-radius: 2rem;
+  }
+
   .main-nav {
     /* background-color: red; */
     background-color: rgba(24, 21, 21, 0.9);
@@ -191,7 +203,7 @@
 
   .main-nav-list {
     flex-direction: column;
-    gap: 7.2rem;
+    gap: 3rem;
   }
 
   .main-nav-link:link,
@@ -234,10 +246,10 @@
     row-gap: 3.2rem;
   }
 
-  .step-img-box img {
+  /* .step-img-box img {
     width: 40%;
     border-radius: 1rem;
-  }
+  } */
 
   .step-img-box:nth-child(2) {
     grid-row: 1;
