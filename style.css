@@ -20,7 +20,7 @@ body {
 }
 
 /* STICKY NAVIGATION */
-.sticky .header {
+.header {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -28,28 +28,43 @@ body {
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
+  padding: 0 4.8rem;
   background-color: #fcf5e5;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.sticky .section-hero {
-  margin-top: 9.6rem;
-}
-
-/* NAVIGATION */
-
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fcf5e5;
-
-  /* Because we want header to be sticky later */
   height: 8rem;
   padding: 0 4.8rem;
   position: relative;
-}
+} */
+
+/* .sticky .section-hero {
+  margin-top: 9.6rem;
+} */
+
+/* NAVIGATION */
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcf5e5;
+  
+  height: 8rem;
+  padding: 0 4.8rem;
+  position: relative;
+} */
+
+/* Because we want header to be sticky later */
 
 .main-nav-list {
   list-style: none;
@@ -89,11 +104,34 @@ body {
   color: #cf711f;
 }
 
+.main-nav-link {
+  display: inline-block;
+  position: relative;
+}
+
+.main-nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.2rem;
+  bottom: -0.5rem;
+  left: 0;
+  background-color: #cf711f;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.main-nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 /* INTRODUCTION */
 
 .introduction {
   /* background-color: grey; */
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 14rem 0 9.6rem 0;
   position: relative;
 }
 
