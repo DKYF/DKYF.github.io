@@ -1,0 +1,141 @@
+@media (max-width: 1200px) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .starter-text {
+    color: #333;
+    font-size: 5rem;
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+  }
+
+  .starter-text2 {
+    color: #333;
+    font-size: 2rem;
+    position: absolute;
+    top: 28rem;
+    left: 10rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -1px;
+  }
+}
+
+@media (max-width: 944px) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .starter-text {
+    color: #333;
+    font-size: 5rem;
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+  }
+
+  .starter-text2 {
+    color: #333;
+    font-size: 2rem;
+    position: absolute;
+    top: 28rem;
+    left: 5rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -1px;
+  }
+}
+
+@media (max-width: 704px) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .strengths {
+    max-width: 140rem;
+    margin: 3rem auto;
+    padding: 0 5rem;
+    display: block;
+    text-align: center;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center; */
+  }
+
+  .strengths img {
+    display: none;
+  }
+
+  .strengths-text {
+    color: #333;
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .strengths-info {
+    /* max-width: 130rem; */
+    margin: 0 auto;
+    padding: 0 10rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 6rem;
+    row-gap: 5rem;
+    /* align-items: center; */
+    justify-items: center;
+    text-align: center;
+  }
+
+  .technical video {
+    height: 100%;
+    opacity: 100%;
+    border-radius: 80%;
+    max-height: 30rem;
+  }
+
+  .technical {
+    max-width: 130rem;
+    margin: 10rem auto;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .technical-text {
+    color: #333;
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+
+  .technical-skills-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    text-align: center;
+  }
+
+  .connect {
+    max-width: 130rem;
+    margin: 10rem auto;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+}
