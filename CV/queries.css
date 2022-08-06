@@ -33,7 +33,7 @@
 
   .starter-text {
     color: #333;
-    font-size: 5rem;
+    font-size: 4rem;
     position: absolute;
     top: 20rem;
     left: 5rem;
@@ -43,7 +43,7 @@
 
   .starter-text2 {
     color: #333;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: absolute;
     top: 28rem;
     left: 5rem;
@@ -56,6 +56,26 @@
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
+  }
+
+  .starter-text {
+    color: #333;
+    font-size: 4rem;
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+  }
+
+  .starter-text2 {
+    color: #333;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 28rem;
+    left: 5rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -1px;
   }
 
   .strengths {
