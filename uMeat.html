@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
+  <link rel="stylesheet" href="uMeat/style.css" />
+  <!-- <link rel="stylesheet" href="CV/style.css" />
+  <link rel="stylesheet" href="queries.css" />
+  <link rel="stylesheet" href="CV/queries.css" /> -->
+
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+ -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script defer src="uMeat/script.js"></script>
+
+  <title>uMeat's Dining</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="header1"><img src="uMeat/umeat1.PNG" class="nav-img"></a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <!-- <img src="uMeat/umeat1.PNG" class="nav-img"> -->
+        <li><a class="main-nav-link" href="#deals">Promotions</a></li>
+        <li><a class="main-nav-link" href="#menu">Menu</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="main-nav-link" href="#locate">Locations</a></li>
+        <li><a class="main-nav-link" href="#">Reservations</a></li>
+      </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="umeat-introduction">
+      <div class="umeat-introduction1">
+        <div class="intro-text-box">
+          <h1 class="heading-primary">
+            WE BRING YOU THE BEST MEAT OF THE WORLD!</h1>
+          <p class="intro-description">
+            Top grade, high quality, best cuts of meat grown locally in Singapore!</p>
+          <p class="intro-description">
+            100% guarantee that your belly is in good hands with us 😋</p>
+          <p class="intro-description">
+            We hope to MEAT you soon! 👋</p>
+        </div>
+      </div>
+      <video autoplay muted loop playsinline class="vid1">
+        <source src="uMeat/grillingv2.mp4" type="video/mp4">
+      </video>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="deals" id="deals">
+      <div class="deals-text">
+        <div>Deals under $20!</div>
+      </div>
+    </section>
+
+    <section class="deals-container">
+
+      <div class="deals-info active">
+        <!-- SLIDER 1 -->
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/burger.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Wagyu Beef Burger</div>
+          <div class="deals-info-text2">Cheeseburger with lettuce, tomato & truffle mayo</div>
+          <div class="deals-info-text3">$19.80</div>
+        </div>
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/chickenchop.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Fried Chicken Chop</div>
+          <div class="deals-info-text2">Deep-fried succulent chicken breast with french fries</div>
+          <div class="deals-info-text3">$18.80</div>
+        </div>
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/lambchop.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Grilled Lamb Chop</div>
+          <div class="deals-info-text2">Tender, juicy lamb chop served with honey mustard</div>
+          <div class="deals-info-text3">$18.90</div>
+        </div>
+      </div>
+
+      <!-- SLIDER 2 -->
+      <div class="deals-info">
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/fishandchips.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Seabass Fillet</div>
+          <div class="deals-info-text2">Pan fried sea bass topped with cherry tomatoes and salsa</div>
+          <div class="deals-info-text3">$19.90</div>
+        </div>
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/sausage.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Grilled Bratwurst</div>
+          <div class="deals-info-text2">Pork / Chicken sausages coupled with crispy fries</div>
+          <div class="deals-info-text3">$17.90</div>
+        </div>
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/pizza.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Laksa Pizza</div>
+          <div class="deals-info-text2">Fusion of Italian chicken ham pizza with our creamy Laksa sauce</div>
+          <div class="deals-info-text3">$17.80</div>
+        </div>
+      </div>
+
+      <!-- SLIDER 3 -->
+      <div class="deals-info">
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/pasta.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Seafood Aglio Olio</div>
+          <div class="deals-info-text2">Fresh prawns, squid and scallops with tomato sauce</div>
+          <div class="deals-info-text3">$18.80</div>
+        </div>
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/chickenrice.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Chicken Briyani</div>
+          <div class="deals-info-text2">Buttery, fragrant basmati rice with roasted chicken drumstick</div>
+          <div class="deals-info-text3">$18.90</div>
+        </div>
+        <div class="deals-info-block">
+          <div>
+            <picture><img src="uMeat/satay.jpg"></picture>
+          </div>
+          <div class="deals-info-text">Satay Platter</div>
+          <div class="deals-info-text2">Perfectly grilled and nicely charred chicken thigh on skewers</div>
+          <div class="deals-info-text3">$16.90</div>
+        </div>
+      </div>
+
+      <div id="nav-button--prev" class="slider__nav-button"></div>
+      <div id="nav-button--next" class="slider__nav-button"></div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+      <div class="menu-text">
+        <div>Menu</div>
+      </div>
+    </section>
+
+    <!-- MENU NAV BAR  -->
+    <div id="mynavtabcontent">
+
+      <input type="radio" name="content-toggle" id="mains"> <label for="mains" tabindex="1">Mains</label>
+      <input type="radio" name="content-toggle" id="desserts"> <label for="desserts" tabindex="2">Desserts</label>
+      <input type="radio" name="content-toggle" id="beverages"> <label for="beverages" tabindex="3">Beverages</label>
+
+      <div id="content">
+        <div id="def">
+          <div class="mains-wrapper">
+            <div class="mains-gallery">
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-1.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-2.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-3.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-4.jpg" alt=""></span></div>
+            </div>
+          </div>
+        </div>
+        <div id="mainscontent">
+          <div class="mains-wrapper">
+            <div class="mains-gallery">
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-1.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-2.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-3.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-4.jpg" alt=""></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="dessertscontent">
+          <div class="mains-wrapper">
+            <div class="mains-gallery">
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-5.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-6.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-7.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-8.jpg" alt=""></span></div>
+            </div>
+          </div>
+        </div>
+        <div id="beveragescontent">
+          <div class="mains-wrapper">
+            <div class="mains-gallery">
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-9.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-10.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-11.jpg" alt=""></span></div>
+              <div class="image"><span><img src="uMeat/menu-gallery/gallery-12.jpg" alt=""></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-text">
+        <div>Customers love us! ❤</div>
+      </div>
+    </section>
+
+    <section class="testimonials-container">
+
+      <!-- TESTIMONIALS 1 -->
+      <div class="testimonials-info active">
+        <div class="testimonials-info-left">
+          <img src="uMeat/customers/customer-1.jpg" class="customer-img">
+        </div>
+        <div class="testimonials-info-right">Inexpensive, delicious and great-tasting meals.
+          Thank you uMeat for the magical treat!
+        </div>
+      </div>
+
+      <!-- TESTIMONIALS 2 -->
+      <div class="testimonials-info">
+        <div class="testimonials-info-left">
+          <img src="uMeat/customers/customer-2.jpg" class="customer-img">
+        </div>
+        <div class="testimonials-info-right">uMeat was amazing! I brought my family there once and they are asking to
+          visit again!
+        </div>
+      </div>
+
+      <!-- TESTIMONIALS 3 -->
+      <div class="testimonials-info">
+        <div class="testimonials-info-left">
+          <img src="uMeat/customers/customer-3.jpg" class="customer-img">
+        </div>
+        <div class="testimonials-info-right">Great food at an affordable price with awesome service from the waiters.
+          Definitely a 10/10 and I strongly recommend everyone to visit uMeat once!
+        </div>
+      </div>
+
+      <!-- TESTIMONIALS 4 -->
+      <div class="testimonials-info">
+        <div class="testimonials-info-left">
+          <img src="uMeat/customers/customer-4.jpg" class="customer-img">
+        </div>
+        <div class="testimonials-info-right">I loved each single chew of the meal in uMeat. I had the Wagyu Beef Burger
+          with a few beers and it was incredible!
+        </div>
+      </div>
+
+      <!-- TESTIMONIALS 5 -->
+      <div class="testimonials-info">
+        <div class="testimonials-info-left">
+          <img src="uMeat/customers/customer-5.jpg" class="customer-img">
+        </div>
+        <div class="testimonials-info-right">This cozy restaurant has left the very best impressions! Hospitable hosts,
+          scrumptious dishes, lovely presentation and fantastic desserts!
+        </div>
+      </div>
+
+      <div id="cust-button--prev" class="slider__cust-button"></div>
+      <div id="cust-button--next" class="slider__cust-button"></div>
+    </section>
+
+    <!-- LOCATE US -->
+    <section class="locate" id="locate">
+      <div class="locate-text">
+        <div>Visit us today!</div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
