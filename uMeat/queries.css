@@ -1,0 +1,227 @@
+@media (max-width: 704px) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-img2 {
+    display: block;
+    width: 20rem;
+    border-radius: 2rem;
+  }
+
+  .main-nav {
+    /* background-color: red; */
+    background-color: #411111;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+    z-index: 998;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+    color: #fcf5e5;
+  }
+
+  .main-nav-link:hover {
+    color: #cf711f;
+  }
+
+  /* DEALS SLIDER */
+
+  .deals-container,
+  .deals-info,
+  .slider__nav-button {
+    display: none;
+  }
+
+  .deals-container_2 {
+    position: relative;
+    display: block;
+    height: 30rem;
+    /* overflow: hidden; */
+    padding: 0 0 0 0;
+    /* height: 80%; */
+    margin-bottom: 3rem;
+    /* background-color: white; */
+  }
+
+  .deals-info_2 {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0;
+    display: grid;
+    row-gap: 3rem;
+    /* padding: 2rem 2rem; */
+    border-radius: 2rem;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .deals-info_2.active {
+    opacity: 1;
+  }
+
+  .deals-info_2 img {
+    width: 30rem;
+    height: 20rem;
+    opacity: 90%;
+    border-radius: 0.5rem;
+  }
+
+  .slider__nav-button_2 {
+    display: block;
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    background: rgbA(128, 128, 128, 0.5);
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #nav-button--prev_2 {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  #nav-button--next_2 {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  #nav-button--prev_2::after,
+  #nav-button--next_2::after {
+    content: "";
+    position: absolute;
+    border: solid #f2efbe;
+    border-width: 0 0.5rem 0.5rem 0;
+    display: inline-block;
+    padding: 0.2rem;
+    width: 40%;
+    height: 40%;
+  }
+
+  #nav-button--next_2::after {
+    top: 50%;
+    right: 50%;
+    transform: translate(25%, -50%) rotate(-45deg);
+  }
+
+  #nav-button--prev_2::after {
+    top: 50%;
+    right: 50%;
+    transform: translate(75%, -50%) rotate(135deg);
+  }
+
+  /* MENU */
+
+  .menu {
+    padding-bottom: 5rem;
+  }
+
+  #mynavtabcontent {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2rem;
+    column-gap: 5rem;
+    row-gap: 5rem;
+    padding-bottom: 10rem;
+  }
+
+  .mains-gallery .image {
+    padding: 3rem;
+    width: calc(100% / 2);
+  }
+
+  .mains-gallery .image img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+  }
+
+  .testimonials-container {
+    height: 20rem;
+  }
+
+  .testimonials-info {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    margin: 0 2rem;
+    padding: 0 2rem;
+    column-gap: 2rem;
+    height: 20rem;
+    background-color: rgba(242, 91, 71, 0.5);
+    border-radius: 4rem;
+    transition: 1s;
+    opacity: 0;
+  }
+
+  .slider__cust-button {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+  }
+}

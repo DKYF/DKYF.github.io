@@ -43,6 +43,10 @@ body {
 
 /* NAVIGATION LIST */
 
+.nav-img2 {
+  display: none;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -100,7 +104,7 @@ body {
 .icon-mobile-nav {
   height: 3rem;
   width: 3rem;
-  color: black;
+  color: #f2efbe;
   margin-right: 0;
 }
 
@@ -310,6 +314,12 @@ body {
   transform: translate(75%, -50%) rotate(135deg);
 }
 
+.deals-container_2,
+.deals-info_2,
+.slider__nav-button_2 {
+  display: none;
+}
+
 /* MENU */
 
 .menu {
@@ -358,6 +368,7 @@ body {
 
 #content {
   grid-column: 1/4;
+  /* grid-row: 2/4; */
 }
 
 #mainscontent,
@@ -525,7 +536,7 @@ body {
   max-width: 130rem;
   margin: 0 auto;
   padding-top: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   /* padding-top: 5rem; */
   text-align: center;
 }
