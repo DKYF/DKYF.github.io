@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
+  <link rel="stylesheet" href="Brag/style.css" />
+  <link rel="stylesheet" href="Brag/style_v2.css" />
+  <link rel="stylesheet" href="Brag/queries.css" />
+  <script defer src="Brag/script.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+  <title>Grub's SuperApp</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="sub-header">
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        <div class="menu-word">Menu</div>
+      </button>
+      <a href="#">
+        <h1>Grub</h1>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <div class="main-nav-list">
+        <div id="mynavtabcontent">
+          <input type="radio" name="content-toggle" id="about"> <label for="about" tabindex="1">About</label>
+          <input type="radio" name="content-toggle" id="consumer"> <label for="consumer" tabindex="2">Consumer</label>
+          <input type="radio" name="content-toggle" id="driver"> <label for="driver" tabindex="3">Driver</label>
+          <input type="radio" name="content-toggle" id="merchant"> <label for="merchant" tabindex="4">Merchant</label>
+          <input type="radio" name="content-toggle" id="enterprise"> <label for="enterprise"
+            tabindex="5">Enterprise</label>
+          <div id="content">
+
+            <div id="def" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>About Us</h3>
+                <div>Who we are and what we stand for</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Investor Relations</h3>
+                <div>Information for our investors</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Locations</h3>
+                <div>Cities and countries we call home</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Sustainability</h3>
+                <div>How we deliver impact to the communities we serve</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Newsroom</h3>
+                <div>Latest news and announcements, fresh off the press</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Grub Financial Group</h3>
+                <div>Financial services that are accessible and affordable to all</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Careers</h3>
+                <div>Join us on our mission to drive Southeast Asia forward</div>
+              </span>
+            </div>
+
+            <div id="aboutcontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>About Us</h3>
+                <div>Who we are and what we stand for</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Investor Relations</h3>
+                <div>Information for our investors</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Locations</h3>
+                <div>Cities and countries we call home</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Sustainability</h3>
+                <div>How we deliver impact to the communities we serve</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Newsroom</h3>
+                <div>Latest news and announcements, fresh off the press</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Grub Financial Group</h3>
+                <div>Financial services that are accessible and affordable to all</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Careers</h3>
+                <div>Join us on our mission to drive Southeast Asia forward</div>
+              </span>
+            </div>
+
+            <div id="consumercontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>What's New</h3>
+                <div>Latest happenings, promos and stories</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Rides</h3>
+                <div>Everything to do with getting you from A to B</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubFood</h3>
+                <div>Your favourite foods delivered to your doorstep</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubMart</h3>
+                <div>Find everything you need</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubExpress</h3>
+                <div>Send things easily and quickly</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubRewards</h3>
+                <div>Exclusive privileges you'll enjoy as a Grub user</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubGifts</h3>
+                <div>Give the Gift of Grub! Practical gifts do not have to be boring</div>
+              </span>
+            </div>
+
+            <div id="drivercontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>Help Centre</h3>
+                <div>Get help on account issues, job issues, accident & safety, earnings & wallet</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>What's New</h3>
+                <div>Latest news and announcements for Grub Driver-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Drive with us</h3>
+                <div>Be your own boss and drive on your own time</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Deliver with us</h3>
+                <div>Earn extra income as you help deliver food and items on-demand</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Financial Services</h3>
+                <div>Simple financial products tailored for driver-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Drive Centre</h3>
+                <div>Find your nearest driver centre</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubAcademy</h3>
+                <div>The one-stop to your training needs, through every phase of your partnership with us</div>
+              </span>
+            </div>
+
+            <div id="merchantcontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>Help Centre</h3>
+                <div>Get help on account issues, app issues issues, and more</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>What's New</h3>
+                <div>Latest news and announcements for Grub Merchants-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Partner with us</h3>
+                <div>Start your journey as a merchant-partner and reach millions of consumers</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Financial Services</h3>
+                <div>Flexible financial solutions to help you grow</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Financial Resources</h3>
+                <div>Funding and resources for merchant-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubExpress</h3>
+                <div>An on-demand delivery service that fulfils your customers’ orders seamlessly</div>
+              </span>
+            </div>
+
+            <div id="enterprisecontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>Grub for Business</h3>
+                <div>Grub services catered to your business needs</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubAds</h3>
+                <div>Take advantage of our exposure, online-to-offline</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubGifts</h3>
+                <div>Customise Grab vouchers for your customers, guests and employees</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubFinance</h3>
+                <div>Easy access to funding for business goals</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubExpress</h3>
+                <div>Book and manage package deliveries for your company</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubDefence</h3>
+                <div>Protect your mobile app from fraud</div>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <nav class="main-nav-2">
+      <ul class="main-nav-list-2">
+        <li><a class="main-nav-link-2" href="#">Be Our Partner</a></li>
+        <li><a class="main-nav-link-2" href="#">Help Centre</a></li>
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="brag-introduction">
+      <div class="brag-introduction1">
+        <div class="intro-text-box">
+          <h1 class="heading-primary">
+            Grub. Making every night better.</h1>
+        </div>
+      </div>
+      <video autoplay muted loop playsinline class="vid1">
+        <source src="Brag/Brag.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section>
+      <div class="overlay">Read About Us</div>
+      <div class="overlay overlay2">Download App</div>
+    </section>
+
+    <section class="description">
+      <div>From essential services to earning opportunities. We're an all-in-one platform.</div>
+    </section>
+
+    <section>
+      <div id="mynavtabcontent_v2">
+        <input type="radio" name="content-toggle" id="consumer_v2"> <label for="consumer_v2"
+          tabindex="1">Consumer</label>
+        <input type="radio" name="content-toggle" id="driver_v2"> <label for="driver_v2" tabindex="2">Driver</label>
+        <input type="radio" name="content-toggle" id="merchant_v2"> <label for="merchant_v2"
+          tabindex="3">Merchant</label>
+        <input type="radio" name="content-toggle" id="enterprise_v2"> <label for="enterprise_v2"
+          tabindex="4">Enterprise</label>
+
+        <div id="content_v2">
+
+          <div id="def_v2" class="content-flexbox_v2">
+            <span class="sub-content-flexbox_v2">
+              <h3>Deliveries</h3>
+              <!-- FOOD -->
+              <div class="v2">
+                <div><img src="Brag/gallery/food.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Food</h3>
+                  <div>Have all your cravings delivered to your doorstep.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- MART -->
+              <div class="v2">
+                <div><img src="Brag/gallery/mart.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Mart</h3>
+                  <div>Find everything you need - groceries and more.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- EXPRESS -->
+              <div class="v2 v2_last">
+                <div><img src="Brag/gallery/express.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Express</h3>
+                  <div>Send packages, documents, and beyond.</div>
+                </div>
+              </div>
+            </span>
+            <span class="sub-content-flexbox_v2">
+              <h3>Mobility</h3>
+              <!-- RIDES -->
+              <div class="v2 v2_last">
+                <div><img src="Brag/gallery/driver.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Rides</h3>
+                  <div>Choose from a variety of vehicles to take you from A to B safely</div>
+                </div>
+              </div>
+            </span>
+            <span class="sub-content-flexbox_v2">
+              <h3>Financial Services</h3>
+              <!-- PAY -->
+              <div class="v2">
+                <div><img src="Brag/gallery/pay.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Pay</h3>
+                  <div>Secure and seamless cashless payments, online and in-store.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- INSURANCE -->
+              <div class="v2">
+                <div><img src="Brag/gallery/insurance.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Insurance</h3>
+                  <div>Get everyday protection with accessible insurance.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- Invest -->
+              <div class="v2">
+                <div><img src="Brag/gallery/invest.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Invest</h3>
+                  <div>Invest on your terms and watch your money grow.</div>
+                </div>
+              </div>
+            </span>
+
+          </div>
+
+          <div id="consumercontent_v2" class="content-flexbox_v2">
+            <span class="sub-content-flexbox_v2">
+              <h3>Deliveries</h3>
+              <!-- FOOD -->
+              <div class="v2">
+                <div><img src="Brag/gallery/food.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Food</h3>
+                  <div>Have all your cravings delivered to your doorstep.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- MART -->
+              <div class="v2">
+                <div><img src="Brag/gallery/mart.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Mart</h3>
+                  <div>Find everything you need - groceries and more.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- EXPRESS -->
+              <div class="v2 v2_last">
+                <div><img src="Brag/gallery/express.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Express</h3>
+                  <div>Send packages, documents, and beyond.</div>
+                </div>
+              </div>
+            </span>
+            <span class="sub-content-flexbox_v2">
+              <h3>Mobility</h3>
+              <!-- RIDES -->
+              <div class="v2 v2_last">
+                <div><img src="Brag/gallery/driver.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Rides</h3>
+                  <div>Choose from a variety of vehicles to take you from A to B safely</div>
+                </div>
+              </div>
+            </span>
+            <span class="sub-content-flexbox_v2">
+              <h3>Financial Services</h3>
+              <!-- PAY -->
+              <div class="v2">
+                <div><img src="Brag/gallery/pay.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Pay</h3>
+                  <div>Secure and seamless cashless payments, online and in-store.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- INSURANCE -->
+              <div class="v2">
+                <div><img src="Brag/gallery/insurance.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Insurance</h3>
+                  <div>Get everyday protection with accessible insurance.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- Invest -->
+              <div class="v2">
+                <div><img src="Brag/gallery/invest.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Invest</h3>
+                  <div>Invest on your terms and watch your money grow.</div>
+                </div>
+              </div>
+            </span>
+          </div>
+
+          <div id="drivercontent_v2" class="content-flexbox_v2">
+            <span class="sub-content-flexbox_v2">
+              <h3>Earn with Grub</h3>
+              <!-- DRIVE WITH US -->
+              <div class="v2">
+                <div><img src="Brag/gallery/drivewithus.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Drive with us</h3>
+                  <div>Be the boss of your own working hours.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- DELIVER WITH US -->
+              <div class="v2">
+                <div><img src="Brag/gallery/deliverwithus.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Deliver with us</h3>
+                  <div>Make deliveries and earn extra income.</div>
+                </div>
+              </div>
+            </span>
+          </div>
+
+          <div id="merchantcontent_v2" class="content-flexbox_v2">
+            <span class="sub-content-flexbox_v2">
+              <h3>Grow your business</h3>
+              <!-- SELL WITH US -->
+              <div class="v2">
+                <div><img src="Brag/gallery/sellwithus.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Sell with us</h3>
+                  <div>Become a Grub merchant-partner and increase your reach.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- PAYMENTS WITH US -->
+              <div class="v2">
+                <div><img src="Brag/gallery/paymentwithus.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Payments with us</h3>
+                  <div>Simplify transactions with secure GrubPay cashless payments.</div>
+                </div>
+              </div>
+            </span>
+          </div>
+
+          <div id="enterprisecontent_v2" class="content-flexbox_v2">
+            <span class="sub-content-flexbox_v2">
+              <h3>GrubForBusiness</h3>
+              <!-- EXPRESS -->
+              <div class="v2">
+                <div><img src="Brag/gallery/express2.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Express</h3>
+                  <div>On-demand package deliveries for your corporate needs.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- FOOD -->
+              <div class="v2">
+                <div><img src="Brag/gallery/food2.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Food</h3>
+                  <div>Manage orders for all employees and business occasions.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- BUSINESS RIDES -->
+              <div class="v2">
+                <div><img src="Brag/gallery/businessrides.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Business rides</h3>
+                  <div>Book and manage rides for employees, visitors, and guests.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- FINANCIAL SERVICES -->
+              <div class="v2">
+                <div><img src="Brag/gallery/financialservices.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Financial services</h3>
+                  <div>Secure funding for your business goals.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- GIFT CARDS -->
+              <div class="v2">
+                <div><img src="Brag/gallery/giftcards.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Gift cards</h3>
+                  <div>For your corporate gifting and promotional needs.</div>
+                </div>
+              </div>
+              <!-- EMPTY -->
+              <div></div>
+              <!-- ADS -->
+              <div class="v2 v2_last">
+                <div><img src="Brag/gallery/ads.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Ads</h3>
+                  <div>Connect your business with millions, online and offline.</div>
+                </div>
+              </div>
+            </span>
+            <span class="sub-content-flexbox_v2">
+              <h3>GrubDefence</h3>
+              <!-- FRAUD MANAGEMENT -->
+              <div class="v2">
+                <div><img src="Brag/gallery/fraud.jpg" class="v2_img"></div>
+                <div>
+                  <h3>Fraud Management</h3>
+                  <div>Protect your business from fraud.</div>
+                </div>
+              </div>
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="newsroom">
+      <p class="newsroom-header">Newsroom</p>
+      <div class="newsroom-gallery">
+        <img src="Brag/gallery/newsroom1.jpg" class="newsroom-img">
+        <img src="Brag/gallery/newsroom2.jpg" class="newsroom-img">
+        <img src="Brag/gallery/newsroom3.jpg" class="newsroom-img">
+        <img src="Brag/gallery/newsroom4.jpg" class="newsroom-img">
+        <div>Read More</div>
+        <div>Read More</div>
+        <div>Read More</div>
+        <div>Read More</div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+</body>
+
+
+
+<footer class="footer">
+  <div class="container grid grid--footer">
+    <div class="logo-col">
+      <a class="footer-logo">
+        <p><strong>Other Social Media Channels:</strong></p>
+      </a>
+
+      <ul class="social-links">
+        <li>
+          <a class="footer-link" href="#"">
+            <ion-icon class=" social-icon" name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">
+            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">
+            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <p class="copyright">
+      <p>Copyright &copy; <span class="year">2022</span> by Darius Koh Yu Feng.</p>
+      <p>This page was inspired and remodelled after Grab Singapore's corporate site and
+        this is the result of my personal practice. All rights and credits belong to Grab Singapore.</p>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</html>
