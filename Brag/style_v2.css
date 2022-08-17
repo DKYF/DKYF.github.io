@@ -92,6 +92,20 @@
   gap: 10rem;
 }
 
+.v2 a {
+  text-decoration: none;
+}
+
+.v2 a:link,
+.v2 a:visited {
+  color: black;
+}
+
+.v2 a:hover,
+.v2 a:active {
+  color: #c73738;
+}
+
 .v2_last {
   border-bottom: none;
 }
