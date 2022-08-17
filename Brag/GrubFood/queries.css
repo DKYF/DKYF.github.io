@@ -224,7 +224,7 @@
 
   .brag-introduction {
     display: flex;
-    height: 80rem;
+    height: 60rem;
     flex-direction: column;
     overflow: hidden;
   }
