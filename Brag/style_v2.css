@@ -29,6 +29,7 @@
   padding-top: 2rem;
   row-gap: 3rem;
   column-gap: 10rem;
+  width: 90%;
 }
 
 #content_v2 {
@@ -68,7 +69,7 @@
 
 .sub-content-flexbox_v2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   width: 90%;
   font-size: 3rem;
   gap: 2rem;
