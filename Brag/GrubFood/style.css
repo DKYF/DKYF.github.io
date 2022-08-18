@@ -431,3 +431,55 @@ body {
 .safety-grid-2 div {
   margin-top: 3rem;
 }
+
+.faq {
+  border-bottom: none;
+  padding-bottom: 10rem;
+}
+
+.helpcentre {
+  font-weight: 600;
+  color: #c73738;
+}
+
+.collapsible {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  padding: 2rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: -0.5px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #f0e5e4;
+}
+
+.content {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f0e5e4;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #7e282a;
+}
+
+.faq-sign {
+  color: black;
+}
+
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #7e282a;
+}
