@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* Does NOT work on Safari */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  line-height: 5rem;
+  align-content: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  position: fixed;
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.left-header {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.left-header-boxes {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  gap: 0.4rem;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:link,
+.header a:visited {
+  color: black;
+}
+
+.header a:hover,
+.header a:active {
+  text-decoration: 3px solid underline;
+}
+
+.macrosoft-link {
+  font-weight: 700;
+  color: #909090 !important;
+  font-size: 1.8rem;
+}
+
+.macrosoft-icon {
+  font-size: 2.6rem !important;
+  color: blue;
+  padding-top: 1.2rem;
+}
+
+.right-header {
+  display: flex;
+  gap: 3rem;
+}
+
+.right-header-boxes {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  gap: 1rem;
+  align-content: center;
+}
+
+.right-header-icons {
+  font-size: 2rem !important;
+  color: black;
+  padding-top: 1.5rem;
+}
+
+/* INTRODUCTION */
+
+.introduction {
+  background-color: #f2f2f2;
+  height: 55rem;
+  overflow: hidden;
+}
+
+.intro-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 14rem;
+  /* padding-right: 10rem; */
+  gap: 10rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.intro-sub-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.intro-box img {
+  width: 75rem;
+}
+
+.intro-sub-box h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.intro-sub-box a {
+  text-decoration: none;
+  background-color: #0067b8;
+  color: white;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.intro-sub-box a:hover,
+.intro-sub-box a:active {
+  background-color: #015493 !important;
+}
+
+/* SELECTION */
+
+.selection {
+  height: 35rem;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15rem 10rem 0rem 10rem;
+  gap: 5rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.sub-selection {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.sub-selection div {
+  margin-bottom: 1rem;
+}
+
+.sub-selection a {
+  color: #0067b8;
+}
+
+.selection-icon {
+  font-size: 4rem !important;
+}
+
+/* CONTENT */
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  column-gap: 3rem;
+  width: 100%;
+  font-size: 1.4rem;
+  padding-bottom: 10rem;
+}
+
+.sub-content {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.sub-content h3 {
+  font-size: 2.5rem;
+}
+
+.sub-content a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0067b8;
+}
+
+.sub-content a:hover,
+.sub-content a:active {
+  text-decoration: underline;
+  color: #0067b8;
+}
+
+.sub-content img {
+  width: 100%;
+  height: 20rem;
+}
+
+.sub-content-link {
+  display: flex;
+  gap: 3rem;
+}
+
+.sub-content-link-2 {
+  display: grid;
+  row-gap: 1rem;
+}
+
+/* GAMES */
+
+.games {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  width: 100%;
+  font-size: 1.6rem;
+  padding-bottom: 10rem;
+  color: white;
+}
+
+.games-img {
+  height: 50rem;
+  width: 100%;
+  opacity: 95%;
+}
+
+.sub-games {
+  background-color: #1a1a1a;
+  height: 50rem;
+  display: grid;
+  padding: 15rem 15rem 12rem 10rem;
+  row-gap: 0;
+}
+
+.sub-games h3 {
+  font-size: 4rem;
+}
+
+.sub-games a {
+  text-decoration: none;
+  background-color: #0067b8;
+  color: white;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.sub-games a:hover,
+.sub-games a:active {
+  background-color: #015493 !important;
+}
+
+/* FOR BUSINESS */
+.business-h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-left: 8rem;
+}
