@@ -46,7 +46,7 @@
   }
 
   .header {
-    background-color: purple;
+    background-color: white;
     font-size: 2rem;
   }
 
@@ -123,7 +123,7 @@
   }
 
   .header {
-    background-color: blue;
+    background-color: white;
   }
 
   .left-header-boxes_v2 {
@@ -193,7 +193,7 @@
   .selection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-bottom: 10rem;
   }
 
@@ -238,7 +238,7 @@
 
 @media (max-width: 600px) {
   .selection {
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-bottom: 10rem;
   }
 }
