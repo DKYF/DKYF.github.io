@@ -133,12 +133,13 @@
   .introduction {
     height: 60rem;
     padding-left: 0rem;
+    overflow-x: hidden;
   }
 
   .intro-box {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 6rem;
+    padding-left: 2rem;
     height: 80rem;
   }
 
@@ -161,9 +162,8 @@
     align-items: center;
     justify-content: center;
     top: 0;
-    left: 4rem;
+    left: 0;
     width: 70rem;
-    height: 100%;
     transition: 1s;
     opacity: 0;
   }
@@ -238,6 +238,6 @@
 @media (max-width: 600px) {
   .selection {
     margin-top: 15rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
   }
 }
