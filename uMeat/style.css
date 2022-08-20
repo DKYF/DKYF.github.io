@@ -58,7 +58,7 @@ body {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #f25b47;
+  color: #f2efbe;
   font-weight: 500;
   font-size: 2rem;
   transition: all 0.3s;
@@ -457,8 +457,9 @@ body {
   position: absolute;
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
-  margin: 0 10rem;
+  margin: 0 5%;
   padding: 0 10rem;
+  width: 90%;
   column-gap: 10rem;
   height: 15rem;
   background-color: rgba(242, 91, 71, 0.5);

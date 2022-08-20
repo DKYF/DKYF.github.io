@@ -173,6 +173,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.technical-skills-blocks a {
+  text-decoration: none;
+}
+
+.technical-skills-blocks a:hover {
+  text-decoration: underline;
+}
+
 .technical-skills-blocks:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
@@ -189,6 +197,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
   column-gap: 5rem;
+  row-gap: 5rem;
   text-align: center;
 }
 
