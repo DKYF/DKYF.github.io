@@ -115,6 +115,10 @@
     padding: 5rem;
     row-gap: 0;
   }
+  .business-h3 {
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -233,6 +237,10 @@
     height: 30rem;
     width: 100%;
     opacity: 95%;
+  }
+  .business-h3 {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
