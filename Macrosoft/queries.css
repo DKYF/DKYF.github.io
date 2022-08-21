@@ -34,7 +34,7 @@
     height: 50rem;
     display: flex;
     flex-wrap: wrap;
-    padding: 15rem 6rem 0rem 6rem;
+    padding: 12rem 6rem 0rem 6rem;
     gap: 5rem;
     justify-content: center;
   }
@@ -74,7 +74,8 @@
 
   .slider__nav {
     position: absolute;
-    top: 70%;
+    /* top: 70%; */
+    top: 56rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -82,7 +83,8 @@
 
   #nav-button--prev,
   #nav-button--next {
-    top: 70%;
+    /* top: 70%; */
+    top: 56rem;
   }
 
   .sub-selection {
@@ -175,7 +177,8 @@
 
   .slider__nav {
     position: absolute;
-    top: 90%;
+    /* top: 90%; */
+    top: 56rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -183,7 +186,8 @@
 
   #nav-button--prev,
   #nav-button--next {
-    top: 90%;
+    /* top: 90%; */
+    top: 56rem;
   }
 
   #nav-button--prev {
