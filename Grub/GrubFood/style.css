@@ -256,6 +256,10 @@ body {
   height: 80rem;
 }
 
+.brag-introduction img {
+  max-width: 100%;
+}
+
 .brag-introduction1 {
   padding-left: 20rem;
   padding-top: 40rem;
