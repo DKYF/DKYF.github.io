@@ -253,16 +253,18 @@ body {
   justify-content: space-between;
   display: flex;
   gap: 5rem;
-  height: 80rem;
+  height: 70rem;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .brag-introduction img {
-  max-width: 100%;
+  width: 60%;
 }
 
 .brag-introduction1 {
   padding-left: 20rem;
-  padding-top: 40rem;
+  padding-top: 30rem;
 }
 
 .consumer-header {

@@ -107,6 +107,14 @@
     padding-left: 5rem;
   }
 
+  .brag-introduction {
+    height: 52rem;
+  }
+
+  .brag-introduction1 {
+    padding-top: 15rem;
+  }
+
   .description {
     display: grid;
     grid-template-columns: 0.8fr 1.5fr;
@@ -239,6 +247,7 @@
     color: #7e282a;
   }
 
+  .brag-introduction img,
   .craving-img {
     width: 100%;
     height: 100%;
