@@ -244,6 +244,10 @@
     border-radius: 2rem;
   }
 
+  .header {
+    padding-left: 2rem;
+  }
+
   .main-nav {
     /* background-color: red; */
     background-color: #411111;
@@ -451,5 +455,9 @@
     position: absolute;
     height: 3rem;
     width: 3rem;
+  }
+
+  .address {
+    padding: 0 1rem;
   }
 }

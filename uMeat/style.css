@@ -126,7 +126,7 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   gap: 9.6rem;
   align-items: center;
 }
@@ -249,6 +249,8 @@ body {
   /* height: 80%; */
   margin-bottom: 3rem;
   /* background-color: white; */
+  max-width: 140rem;
+  margin: 0 auto;
 }
 
 .deals-info {
@@ -364,6 +366,8 @@ body {
   column-gap: 5rem;
   row-gap: 5rem;
   padding-bottom: 10rem;
+  max-width: 140rem;
+  margin: 0 auto;
 }
 
 #content {
@@ -446,6 +450,9 @@ body {
   position: relative;
   display: block;
   height: 15rem;
+
+  max-width: 130rem;
+  margin: 0 auto;
   margin-bottom: 10rem;
 }
 
@@ -576,9 +583,10 @@ body {
 .footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 10%;
+  padding-left: 4rem;
   border-top: 0.1rem solid #f25b47;
-  max-width: 100%;
+  max-width: 140rem;
+  margin: 0 auto;
   color: #f2efbe;
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
@@ -632,4 +640,11 @@ body {
 .footer-link:hover,
 .footer-link:active {
   color: #f25b47;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+  max-width: 140rem;
+  margin: 0 auto;
 }
