@@ -218,7 +218,8 @@
   .description,
   .explanation,
   .gathering-img,
-  .orders {
+  .orders,
+  .footer {
     padding-left: 3rem;
   }
 
@@ -251,7 +252,8 @@
     display: grid;
     grid-template-columns: 1fr;
     font-size: 2.8rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
+    /* margin-left: 2rem; */
     padding-top: 8rem;
     padding-bottom: 4rem;
     font-family: "Poppins", sans-serif;
@@ -306,7 +308,7 @@
 
   .safety {
     font-size: 4rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
     padding-top: 8rem;
     padding-bottom: 8rem;
     font-family: "Poppins", sans-serif;
@@ -333,7 +335,7 @@
 
   /* STANDARD */
   .header {
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
 
   .main-nav {
@@ -366,6 +368,11 @@
 
   .main-nav-list-2 {
     gap: 2rem;
+  }
+
+  .faq,
+  .overview {
+    margin-left: 0;
   }
 }
 

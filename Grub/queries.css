@@ -76,8 +76,9 @@
   .overlay,
   .description,
   #mynavtabcontent_v2,
-  .newsroom {
-    padding-left: 5rem;
+  .newsroom,
+  .footer {
+    padding-left: 3rem;
   }
 
   .v2 {
@@ -89,7 +90,7 @@
   }
 
   .header {
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
 
   .main-nav {

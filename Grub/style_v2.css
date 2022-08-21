@@ -181,6 +181,7 @@
   padding-bottom: 2rem;
   font-family: "Poppins", sans-serif;
   letter-spacing: -1px;
+  max-width: 200rem;
 }
 
 .newsroom-header {
