@@ -186,9 +186,10 @@
   }
 
   .slider__slide {
-    width: 90%;
-    left: 5%;
+    width: 100%;
+    left: 0%;
   }
+
   .testimonials-grid {
     padding: 3rem;
   }
@@ -241,5 +242,38 @@
     border: 1px grey solid;
     padding: 2rem;
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_main,
+  .header,
+  .introduction,
+  .stats,
+  .why-us,
+  .business,
+  .get-started,
+  .grow-with-us,
+  .rewards {
+    padding: 0 2rem;
+    /* background-color: aqua; */
+  }
+
+  .introduction1 {
+    height: 70rem;
+  }
+
+  #nav-button--prev {
+    left: 30%;
+  }
+
+  #nav-button--next {
+    right: 30%;
+  }
+
+  .slider__nav,
+  #nav-button--prev,
+  #nav-button--next {
+    top: 65rem;
   }
 }
