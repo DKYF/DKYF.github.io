@@ -157,7 +157,7 @@
   }
 
   .introduction {
-    height: 60rem;
+    height: 70rem;
     padding-left: 0rem;
     max-width: 100%;
   }
@@ -197,7 +197,7 @@
   .slider__nav {
     position: absolute;
     /* top: 90%; */
-    top: 56rem;
+    top: 65rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -206,15 +206,15 @@
   #nav-button--prev,
   #nav-button--next {
     /* top: 90%; */
-    top: 56rem;
+    top: 65rem;
   }
 
   #nav-button--prev {
-    left: 37.5%;
+    left: 32.5%;
   }
 
   #nav-button--next {
-    right: 37.5%;
+    right: 32.5%;
   }
 
   .selection {
