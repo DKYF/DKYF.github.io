@@ -169,7 +169,7 @@
   }
 
   .stats-grid div {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .why-us-flexbox {
@@ -263,6 +263,14 @@
     height: 70rem;
   }
 
+  .stats-grid h1 {
+    font-size: 1.6rem;
+  }
+
+  .stats-grid div {
+    font-size: 1.4rem;
+  }
+
   #nav-button--prev {
     left: 30%;
   }
@@ -274,6 +282,6 @@
   .slider__nav,
   #nav-button--prev,
   #nav-button--next {
-    top: 65rem;
+    top: 60rem;
   }
 }
