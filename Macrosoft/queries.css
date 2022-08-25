@@ -157,7 +157,7 @@
   }
 
   .introduction {
-    height: 70rem;
+    height: 60rem;
     padding-left: 0rem;
     max-width: 100%;
   }
@@ -177,6 +177,7 @@
     text-align: left;
     font-size: 1.6rem;
     grid-row: 2/3;
+    padding-right: 1rem;
   }
 
   .intro-box img {
@@ -197,7 +198,7 @@
   .slider__nav {
     position: absolute;
     /* top: 90%; */
-    top: 65rem;
+    top: 55rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -206,7 +207,7 @@
   #nav-button--prev,
   #nav-button--next {
     /* top: 90%; */
-    top: 65rem;
+    top: 55rem;
   }
 
   #nav-button--prev {
