@@ -26,6 +26,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 0 16rem;
 }
 
 .mobile-img {
@@ -42,7 +43,8 @@ body {
   /* background-color: #c2002f; */
   /* background-color: #8c9298; */
   line-height: 6rem;
-  padding: 0 16rem;
+  width: 140rem;
+  /* padding: 0 16rem; */
   margin: 0 auto;
   display: flex;
   vertical-align: middle;
