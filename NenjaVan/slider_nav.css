@@ -1,0 +1,138 @@
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 6rem;
+  text-align: center;
+}
+
+.testimonials-grid h3,
+.testimonials-grid p {
+  text-align: left;
+  margin: 0.5rem;
+}
+
+.testimonials-grid h3 {
+  font-size: 2rem;
+  color: #c2002f;
+}
+
+.testimonials-grid p {
+  font-size: 1.6rem;
+  color: #5a5f63fa;
+}
+
+.slider__slide {
+  border: 1px #c2002f solid;
+  /* max-width: 80rem; */
+  width: 70%;
+  min-height: 55rem;
+  margin: 4rem 0rem;
+  position: absolute;
+  left: 15%;
+  transition: 1s;
+  opacity: 0;
+  z-index: -1;
+}
+
+.slider__slide.active {
+  opacity: 1;
+}
+
+.slider_slides {
+  position: relative;
+  /* background-color: aqua; */
+  max-width: 140rem;
+  margin: 0 auto;
+  height: 60rem;
+}
+
+.slider__nav-button {
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  /* background-color: #333; */
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#nav-button--prev {
+  top: 55rem;
+  left: 43%;
+}
+
+#nav-button--next {
+  top: 55rem;
+  right: 43%;
+}
+
+#nav-button--prev::after,
+#nav-button--next::after {
+  content: "";
+  position: absolute;
+  border: solid #c2002f;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+#nav-button--next::after {
+  top: 50%;
+  right: 50%;
+  transform: translate(25%, -50%) rotate(-45deg);
+}
+
+#nav-button--prev::after {
+  top: 50%;
+  right: 50%;
+  transform: translate(75%, -50%) rotate(135deg);
+}
+
+.slider__nav {
+  position: absolute;
+  /* top: 80%; */
+  top: 55rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.slider__navlink {
+  display: inline-block;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  border: 1px #c2002f solid;
+  background-color: white;
+  opacity: 1;
+  margin: 0 1rem 0 1rem;
+  cursor: pointer;
+}
+
+.slider__navlink.active {
+  background-color: #c2002f;
+  border: 1px #333 solid;
+}
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  margin-right: 0;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}

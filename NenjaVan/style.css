@@ -20,6 +20,21 @@ body {
 }
 
 /* NAVIGATION BAR */
+.header_main {
+  background-color: #231f20;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-img {
+  width: 15rem;
+  height: 6rem;
+  align-content: center;
+  vertical-align: middle;
+  display: none;
+}
 
 .header {
   background-color: #231f20;
@@ -146,7 +161,7 @@ body {
   max-width: 140rem;
   margin: 0 auto;
   gap: 2rem;
-  height: 52rem;
+  height: 58rem;
   align-items: center;
   /* background-color: goldenrod; */
 }
@@ -299,6 +314,7 @@ body {
 
 .business img {
   border-radius: 2rem;
+  width: 80rem;
 }
 
 /* GET STARTED */

@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="NenjaVan/style.css" />
   <link rel="stylesheet" href="NenjaVan/style_v2.css" />
+  <link rel="stylesheet" href="NenjaVan/slider_nav.css" />
   <link rel="stylesheet" href="NenjaVan/queries.css" />
   <script defer src="NenjaVan/script.js"></script>
 
@@ -33,75 +34,83 @@
 
 <body>
   <!-- NAVIGATION BAR -->
-  <header class="header">
-    <!-- LOGO -->
-    <img src="NenjaVan/gallery/logo2.PNG" class="logo-img">
-    <!-- TRACKING -->
-    <div><a href="#">TRACKING</a></div>
-    <!-- SERVICES - DROPDOWN -->
-    <div class="dropdown">
-      <a href="#" class="dropbtn">SERVICES<span class="material-symbols-outlined">
-          expand_more
-        </span></a>
-      <div class="dropdown-content">
-        <a href="#">All Services</a>
-        <a href="#">Prepaid Regular Service</a>
-        <a href="#">Nenja Packs</a>
-        <a href="#">International Deliveries</a>
-        <a href="#">Nenja Points</a>
-        <a href="#">Promotions</a>
+  <header class="header_main">
+    <img src="NenjaVan/gallery/logo2.PNG" class="mobile-img">
+    <section class="header main-nav">
+      <!-- LOGO -->
+      <img src="NenjaVan/gallery/logo2.PNG" class="logo-img">
+      <!-- TRACKING -->
+      <div><a href="#">TRACKING</a></div>
+      <!-- SERVICES - DROPDOWN -->
+      <div class="dropdown">
+        <a href="#" class="dropbtn">SERVICES<span class="material-symbols-outlined">
+            expand_more
+          </span></a>
+        <div class="dropdown-content">
+          <a href="#">All Services</a>
+          <a href="#">Prepaid Regular Service</a>
+          <a href="#">Nenja Packs</a>
+          <a href="#">International Deliveries</a>
+          <a href="#">Nenja Points</a>
+          <a href="#">Promotions</a>
+        </div>
       </div>
-    </div>
-    <!-- SUPPORT - DROPDOWN -->
-    <div class="dropdown">
-      <a href="#" class="dropbtn">SUPPORT<span class="material-symbols-outlined">
-          expand_more
-        </span></a>
-      <div class="dropdown-content">
-        <a href="#">Nenja Chat</a>
-        <a href="#">COD Advisory</a>
-        <a href="#">Shipper Resources</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contact Us</a>
+      <!-- SUPPORT - DROPDOWN -->
+      <div class="dropdown">
+        <a href="#" class="dropbtn">SUPPORT<span class="material-symbols-outlined">
+            expand_more
+          </span></a>
+        <div class="dropdown-content">
+          <a href="#">Nenja Chat</a>
+          <a href="#">COD Advisory</a>
+          <a href="#">Shipper Resources</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact Us</a>
+        </div>
       </div>
-    </div>
-    <!-- NENJA POINTS -->
-    <div><a href="#">NENJA POINTS</a></div>
-    <!-- CAREER - DROPDOWN -->
-    <div class="dropdown">
-      <a href="#" class="dropbtn">CAREERS<span class="material-symbols-outlined">
-          expand_more
-        </span></a>
-      <div class="dropdown-content">
-        <a href="#">All Careers</a>
-        <a href="#">Tech</a>
-        <a href="#">Drive for Us</a>
+      <!-- NENJA POINTS -->
+      <div><a href="#">NENJA POINTS</a></div>
+      <!-- CAREER - DROPDOWN -->
+      <div class="dropdown">
+        <a href="#" class="dropbtn">CAREERS<span class="material-symbols-outlined">
+            expand_more
+          </span></a>
+        <div class="dropdown-content">
+          <a href="#">All Careers</a>
+          <a href="#">Tech</a>
+          <a href="#">Drive for Us</a>
+        </div>
       </div>
-    </div>
-    <!-- FLAG - DROPDOWN -->
-    <div class="dropdown">
-      <a href="#" class="dropbtn"><img src=" NenjaVan/gallery/singapore.png" class="flag-img"><span
-          class="material-symbols-outlined">
-          expand_more
-        </span></a>
-      <div class="dropdown-content">
-        <a href="#"><img src=" NenjaVan/gallery/singapore.png" class="flag-img"><span>Singapore</span></a>
-        <a href="#"><img src=" NenjaVan/gallery/indonesia.png" class="flag-img"><span>Indonesia</span></a>
-        <a href="#"><img src=" NenjaVan/gallery/myanmar.png" class="flag-img"><span>Myanmar</span></a>
-        <a href="#"><img src=" NenjaVan/gallery/malaysia.png" class="flag-img"><span>Malaysia</span></a>
-        <a href="#"><img src=" NenjaVan/gallery/philippines.png" class="flag-img"><span>Philippines</span></a>
-        <a href="#"><img src=" NenjaVan/gallery/thailand.png" class="flag-img"><span>Thailand</span></a>
-        <a href="#"><img src=" NenjaVan/gallery/vietnam.png" class="flag-img"><span>Vietnam</span></a>
+      <!-- FLAG - DROPDOWN -->
+      <div class="dropdown">
+        <a href="#" class="dropbtn"><img src=" NenjaVan/gallery/singapore.png" class="flag-img"><span
+            class="material-symbols-outlined">
+            expand_more
+          </span></a>
+        <div class="dropdown-content">
+          <a href="#"><img src=" NenjaVan/gallery/singapore.png" class="flag-img"><span>Singapore</span></a>
+          <a href="#"><img src=" NenjaVan/gallery/indonesia.png" class="flag-img"><span>Indonesia</span></a>
+          <a href="#"><img src=" NenjaVan/gallery/myanmar.png" class="flag-img"><span>Myanmar</span></a>
+          <a href="#"><img src=" NenjaVan/gallery/malaysia.png" class="flag-img"><span>Malaysia</span></a>
+          <a href="#"><img src=" NenjaVan/gallery/philippines.png" class="flag-img"><span>Philippines</span></a>
+          <a href="#"><img src=" NenjaVan/gallery/thailand.png" class="flag-img"><span>Thailand</span></a>
+          <a href="#"><img src=" NenjaVan/gallery/vietnam.png" class="flag-img"><span>Vietnam</span></a>
+        </div>
       </div>
-    </div>
-    <!-- LANGUAGE -->
-    <div><a>English<span class="material-symbols-outlined">
-          expand_more
-        </span></a></div>
-    <!-- LOGIN -->
-    <div class="login">
-      <div><a href="#">LOGIN</a></div>
-    </div>
+      <!-- LANGUAGE -->
+      <div><a>English<span class="material-symbols-outlined">
+            expand_more
+          </span></a></div>
+      <!-- LOGIN -->
+      <div class="login">
+        <div><a href="#">LOGIN</a></div>
+      </div>
+    </section>
+    <!-- MOBILE NAV / SLIDER_NAV.CSS -->
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
   </header>
 
   <main>
@@ -181,7 +190,61 @@
       <div><img src="NenjaVan/gallery/businessicon1.png"></div>
     </section>
 
-    <!-- GET STARTED -->
+    <!-- TESTIMONIALS / SLIDER_NAV.CSS -->
+    <section class="get-started">
+      <h1>Testimonials</h1>
+      <div class="slider_slides">
+        <!-- 1ST SLIDER -->
+        <div class="slider__slide active">
+          <div class="testimonials-grid">
+            <div><img src="NenjaVan/gallery/testimonial1.png"></div>
+            <h3>Hands-on approach</h3>
+            <p>“Before switching to NenjaVan, we had many cases of late deliveries during our promotional period.
+              Having engaged NenjaVan’s services for over a year, our delivery requirements have been met and
+              furthermore, their account management team takes a hands-on approach with our pickups and deliveries
+              during peak periods.</p>
+            <p>We truly value this partnership and would recommend it to other businesses!”</p>
+          </div>
+        </div>
+
+        <!-- 2ND SLIDER -->
+        <div class="slider__slide">
+          <div class="testimonials-grid">
+            <div><img src="NenjaVan/gallery/testimonial2.png"></div>
+            <h3>Prompt in response</h3>
+            <p>“We have been partnering with NenjaVan since the start of our ecommerce business and we do appreciate
+              that our NenjaVan team is agile to change after listening to our feedback.</p>
+            <p>They are also prompt in response and take action when our customers face delivery issues. We needed that
+              care and efficiency to our customer as a delivery partner.”</p>
+          </div>
+        </div>
+
+        <!-- 3RD SLIDER -->
+        <div class="slider__slide">
+          <div class="testimonials-grid">
+            <div><img src="NenjaVan/gallery/testimonial3.png"></div>
+            <h3>Smooth purchase journey</h3>
+            <p>“With the help of NenjaVan’s services, our logistics are being well taken care of. With this, we are able
+              to fully focus on satisfying our customers’ needs and bringing them through an enjoyable journey from
+              pre-purchase to post-purchase.</p>
+            <p>Extremely easy and intuitive turnkey service from scheduling pickups to doorstep delivery.”</p>
+          </div>
+        </div>
+
+        <!-- NAV ARROWS & BREADCRUMBS -->
+        <div id="nav-button--prev" class="slider__nav-button"></div>
+        <div id="nav-button--next" class="slider__nav-button"></div>
+        <div class="slider__nav">
+          <div class="slider__navlink active"></div>
+          <div class="slider__navlink"></div>
+          <div class="slider__navlink"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- GET STARTED / STYLE-->
     <section class="get-started">
       <h1>Get started with NenjaVan</h1>
       <p>Receive a quote for free.</p>
