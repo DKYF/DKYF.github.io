@@ -95,7 +95,10 @@ body {
 .introduction {
   background-color: #f2f2f2;
   height: 55rem;
-  overflow: hidden;
+
+  max-width: 200rem;
+  margin: 0 auto;
+  position: relative;
 }
 
 .intro-box {

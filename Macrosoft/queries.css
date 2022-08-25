@@ -9,8 +9,9 @@
   }
 
   .introduction {
-    height: 60rem;
+    height: 55rem;
   }
+
   .intro-box {
     display: grid;
     grid-template-columns: 2fr 0.5fr;
@@ -37,6 +38,25 @@
     padding: 6rem 6rem 0rem 6rem;
     gap: 5rem;
     justify-content: center;
+  }
+
+  #nav-button--prev {
+    top: 50rem;
+    left: 42%;
+  }
+
+  #nav-button--next {
+    top: 50rem;
+    right: 42%;
+  }
+
+  .slider__nav {
+    position: absolute;
+    /* top: 80%; */
+    top: 50rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
   }
 }
 
@@ -75,7 +95,7 @@
   .slider__nav {
     position: absolute;
     /* top: 70%; */
-    top: 56rem;
+    top: 50rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -84,7 +104,7 @@
   #nav-button--prev,
   #nav-button--next {
     /* top: 70%; */
-    top: 56rem;
+    top: 50rem;
   }
 
   .sub-selection {
@@ -139,7 +159,6 @@
   .introduction {
     height: 60rem;
     padding-left: 0rem;
-    overflow-x: hidden;
     max-width: 100%;
   }
 
