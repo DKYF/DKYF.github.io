@@ -236,10 +236,10 @@ body {
   border-right: 1px #c2002f solid;
 }
 
-.stats-sub-grid div,
-.stats-sub-grid_2 div {
-  padding-right: 1rem;
-  padding-left: 1rem;
+.stats-sub-grid,
+.stats-sub-grid_2 {
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
 }
 
 /* WHY US */
