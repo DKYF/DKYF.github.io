@@ -4,7 +4,6 @@
   }
 
   .header_main,
-  .header,
   .introduction,
   .stats,
   .why-us,
@@ -23,7 +22,6 @@
   }
 
   .header_main,
-  .header,
   .introduction,
   .stats,
   .why-us,
@@ -32,7 +30,7 @@
   .grow-with-us,
   .rewards,
   .footer {
-    padding: 0 6rem;
+    padding: 0 5rem;
     /* background-color: beige; */
   }
 }
@@ -43,7 +41,6 @@
   }
 
   .header_main,
-  .header,
   .introduction,
   .stats,
   .why-us,
@@ -80,6 +77,7 @@
     grid-template-columns: 1fr;
     column-gap: 4rem;
     margin-top: 4rem;
+    padding-left: 2rem;
     transition: all 0.5s ease-in;
     opacity: 0;
     pointer-events: none;
@@ -125,7 +123,6 @@
   }
 
   .header_main,
-  .header,
   .introduction,
   .stats,
   .why-us,
@@ -247,7 +244,6 @@
 
 @media (max-width: 600px) {
   .header_main,
-  .header,
   .introduction,
   .stats,
   .why-us,
