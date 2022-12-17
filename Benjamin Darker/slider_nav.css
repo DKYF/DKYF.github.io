@@ -117,19 +117,19 @@
   /* background-color: #333; */
   opacity: 0.8;
   cursor: pointer;
-  z-index: 999999;
+  /* z-index: 999999; */
 }
 
 #wedding-button--prev {
   top: 25rem;
   left: 10rem;
-  z-index: 999999;
+  /* z-index: 999999; */
 }
 
 #wedding-button--next {
   top: 25rem;
   right: 10rem;
-  z-index: 999999;
+  /* z-index: 999999; */
 }
 
 #wedding-button--prev::after,
