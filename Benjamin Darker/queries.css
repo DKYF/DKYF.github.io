@@ -254,7 +254,7 @@
   }
 
   .slider__wedding {
-    top: 26rem;
+    top: 24rem;
   }
 
   .slider__weddinglink {
@@ -264,7 +264,7 @@
 
   #wedding-button--prev,
   #wedding-button--next {
-    top: 12rem;
+    top: 10rem;
   }
 
   #wedding-button--prev {
@@ -275,10 +275,10 @@
   }
 
   .contact {
-    margin-top: 30rem;
+    margin-top: 36rem;
   }
   .tailor img {
-    width: 80%;
+    width: 75%;
   }
 }
 
