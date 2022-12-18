@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="Grub/GrubFood/style.css" />
+  <link rel="stylesheet" href="Grub/GrubFood/style_v2.css" />
+  <link rel="stylesheet" href="Grub/GrubFood/queries.css" />
+  <script defer src="Grub/GrubFood/script.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0" />
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+  <title>Grub's SuperApp</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="sub-header">
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        <div class="menu-word">Menu</div>
+      </button>
+      <a href="https://dkyf.github.io/Grub.html#">
+        <h1>Grub</h1>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <div class="main-nav-list">
+        <div id="mynavtabcontent">
+          <input type="radio" name="content-toggle" id="about"> <label for="about" tabindex="1">About</label>
+          <input type="radio" name="content-toggle" id="consumer"> <label for="consumer" tabindex="2">Consumer</label>
+          <input type="radio" name="content-toggle" id="driver"> <label for="driver" tabindex="3">Driver</label>
+          <input type="radio" name="content-toggle" id="merchant"> <label for="merchant" tabindex="4">Merchant</label>
+          <input type="radio" name="content-toggle" id="enterprise"> <label for="enterprise"
+            tabindex="5">Enterprise</label>
+          <div id="content">
+
+            <div id="def" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>About Us</h3>
+                <div>Who we are and what we stand for</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Investor Relations</h3>
+                <div>Information for our investors</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Locations</h3>
+                <div>Cities and countries we call home</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Sustainability</h3>
+                <div>How we deliver impact to the communities we serve</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Newsroom</h3>
+                <div>Latest news and announcements, fresh off the press</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Grub Financial Group</h3>
+                <div>Financial services that are accessible and affordable to all</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Careers</h3>
+                <div>Join us on our mission to drive Southeast Asia forward</div>
+              </span>
+            </div>
+
+            <div id="aboutcontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>About Us</h3>
+                <div>Who we are and what we stand for</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Investor Relations</h3>
+                <div>Information for our investors</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Locations</h3>
+                <div>Cities and countries we call home</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Sustainability</h3>
+                <div>How we deliver impact to the communities we serve</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Newsroom</h3>
+                <div>Latest news and announcements, fresh off the press</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Grub Financial Group</h3>
+                <div>Financial services that are accessible and affordable to all</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Careers</h3>
+                <div>Join us on our mission to drive Southeast Asia forward</div>
+              </span>
+            </div>
+
+            <div id="consumercontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>What's New</h3>
+                <div>Latest happenings, promos and stories</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Rides</h3>
+                <div>Everything to do with getting you from A to B</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubFood</h3>
+                <div>Your favourite foods delivered to your doorstep</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubMart</h3>
+                <div>Find everything you need</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubExpress</h3>
+                <div>Send things easily and quickly</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubRewards</h3>
+                <div>Exclusive privileges you'll enjoy as a Grub user</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubGifts</h3>
+                <div>Give the Gift of Grub! Practical gifts do not have to be boring</div>
+              </span>
+            </div>
+
+            <div id="drivercontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>Help Centre</h3>
+                <div>Get help on account issues, job issues, accident & safety, earnings & wallet</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>What's New</h3>
+                <div>Latest news and announcements for Grub Driver-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Drive with us</h3>
+                <div>Be your own boss and drive on your own time</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Deliver with us</h3>
+                <div>Earn extra income as you help deliver food and items on-demand</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Financial Services</h3>
+                <div>Simple financial products tailored for driver-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Drive Centre</h3>
+                <div>Find your nearest driver centre</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubAcademy</h3>
+                <div>The one-stop to your training needs, through every phase of your partnership with us</div>
+              </span>
+            </div>
+
+            <div id="merchantcontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>Help Centre</h3>
+                <div>Get help on account issues, app issues issues, and more</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>What's New</h3>
+                <div>Latest news and announcements for Grub Merchants-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Partner with us</h3>
+                <div>Start your journey as a merchant-partner and reach millions of consumers</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Financial Services</h3>
+                <div>Flexible financial solutions to help you grow</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>Financial Resources</h3>
+                <div>Funding and resources for merchant-partners</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubExpress</h3>
+                <div>An on-demand delivery service that fulfils your customers’ orders seamlessly</div>
+              </span>
+            </div>
+
+            <div id="enterprisecontent" class="content-flexbox">
+              <span class="sub-content-flexbox">
+                <h3>Grub for Business</h3>
+                <div>Grub services catered to your business needs</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubAds</h3>
+                <div>Take advantage of our exposure, online-to-offline</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubGifts</h3>
+                <div>Customise Grab vouchers for your customers, guests and employees</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubFinance</h3>
+                <div>Easy access to funding for business goals</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubExpress</h3>
+                <div>Book and manage package deliveries for your company</div>
+              </span>
+              <span class="sub-content-flexbox">
+                <h3>GrubDefence</h3>
+                <div>Protect your mobile app from fraud</div>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <nav class="main-nav-2">
+      <ul class="main-nav-list-2">
+        <li><a class="main-nav-link-2" href="#">Be Our Partner</a></li>
+        <li><a class="main-nav-link-2" href="#">Help Centre</a></li>
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="brag-introduction">
+      <div class="brag-introduction1">
+        <div class="intro-text-box">
+          <div class="consumer-header">Consumer</div>
+          <h1 class="heading-primary">
+            Every craving, delivered.</h1>
+        </div>
+      </div>
+      <img src="Grub/GrubFood/gallery/craving.jpg" class="craving-img">
+    </section>
+
+    <section>
+      <div class="overlay">Read About Us</div>
+      <div class="overlay overlay2">Download App</div>
+    </section>
+
+    <section class="description">
+      <div class="overview">Overview</div>
+      <div>Every day, GrubFood delivers food and beverages from restaurants to millions of consumers islandwide.
+        With a few taps, you too can have your cravings delivered to your doorstep.</div>
+    </section>
+
+    <section class="explanation">
+      <div class="explanation-text">Why GrubFood</div>
+      <div></div>
+      <div class="explanation-flex">
+        <div>1</div>
+        <div>Foods for all cravings</div>
+      </div>
+      <div class="explanation-text">From hawker fare to Michelin restaurants, our wide selection will satisfy your
+        appetite.</div>
+    </section>
+
+    <section class="explanation">
+      <div class="explanation-flex">
+        <div>2</div>
+        <div>Be rewarded with every order</div>
+      </div>
+      <div class="explanation-text">Earn GrubRewards points, and redeem them for rewards or rebates.</div>
+    </section>
+
+    <section class="explanation">
+      <div class="explanation-flex">
+        <div>3</div>
+        <div>Mix & Match</div>
+      </div>
+      <div class="explanation-text">Can’t decide on one restaurant? Order food from multiple eateries and pay just one
+        delivery fee with our Mix & Match menus.</div>
+    </section>
+
+    <section>
+      <img src="Grub/GrubFood/gallery/gathering.jpg" class="gathering-img">
+    </section>
+
+    <section class="orders-background">
+      <section class="orders">
+        <div class="orders-text">Ways to order</div>
+        <div></div>
+        <div class="orders-flex">
+          <h3>Instant Delivery</h3>
+          <div>No matter where you are, you can order food in your area or get islandwide delivery, delivered straight
+            to
+            your door.</div>
+        </div>
+        <div class="instantdelivery-background">
+          <video autoplay muted loop playsinline class="instantdelivery">
+            <source src="Grub/GrubFood/gallery/instantdelivery.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <section class="orders">
+        <div class="orders-flex">
+          <h3>Scheduled Delivery</h3>
+          <div>Already know what you want to eat tomorrow? Order it for delivery at a later time, or up to 2 days in
+            advance.</div>
+        </div>
+        <div class="instantdelivery-background">
+          <video autoplay muted loop playsinline class="instantdelivery">
+            <source src="Grub/GrubFood/gallery/scheduleddelivery.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <section class="orders lastorder">
+        <div class="orders-flex">
+          <h3>Self Pick-up</h3>
+          <div>Skip the queue and save on delivery fees. Pay for your food with the Grub app.</div>
+        </div>
+        <div class="instantdelivery-background">
+          <video autoplay muted loop playsinline class="instantdelivery">
+            <source src="Grub/GrubFood/gallery/selfpickup.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+    </section>
+
+    <section class="safety">
+      <span class="material-symbols-outlined shieldlogo">
+        security
+      </span>
+      <div>Our Commitment to Safety.</div>
+      <div class="safety-grid">
+        <div class="safety-grid-2">
+          <h3>You control who sees your information</h3>
+          <div>Our app and backend systems employ best-in-class security frameworks
+            that guard users' accounts, transaction data, e-wallet, and other privae information.
+          </div>
+        </div>
+        <div class="safety-grid-2">
+          <h3>Every transaction is protected</h3>
+          <div>Our app features are continually strengthened and protected by the latest technology
+            and our stringent processes, so users can do what they need with peace of mind.
+          </div>
+        </div>
+        <div class="safety-grid-2">
+          <h3>A safer experience for all</h3>
+          <div>No consumer should have to feel unsafe while using any of our services. Grub is always
+            on standby to ensure a smooth and secure experience.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="overlay overlay2">Learn More</div>
+    </section>
+
+    <section class="description">
+      <div class="overview">FAQs</div>
+    </section>
+
+    <section class="orders faq">
+      <div class="orders-flex">
+        <h3>Got questions? We’ve got answers.</h3>
+        <div>For more questions, please visit our <span class="helpcentre">Help Centre</span>.</div>
+      </div>
+      <div class="instantdelivery-background">
+        <div class="faq-grid">
+          <button class="collapsible">
+            <div>How much does it cost to order from GrubFood?</div>
+            <span class="material-symbols-outlined faq-sign">
+              add
+            </span>
+          </button>
+          <div class="content">
+            <span class="material-symbols-outlined faq-sign">
+              subdirectory_arrow_right
+            </span>
+            <p>Your order’s total cost includes the price of the menu items plus a delivery fee. The delivery fees
+              help us pay our delivery-partners and provide the best service possible.</p>
+          </div>
+          <button class="collapsible">
+            <div>What are your delivery fees?</div>
+            <span class="material-symbols-outlined faq-sign">
+              add
+            </span>
+          </button>
+          <div class="content">
+            <span class="material-symbols-outlined faq-sign">
+              subdirectory_arrow_right
+            </span>
+            <p>Our delivery fees are calculated based on distance between the pick-up and drop-off locations.</p>
+          </div>
+          <button class="collapsible">
+            <div>What are your hours?</div>
+            <span class="material-symbols-outlined faq-sign">
+              add
+            </span>
+          </button>
+          <div class="content">
+            <span class="material-symbols-outlined faq-sign">
+              subdirectory_arrow_right
+            </span>
+            <p>Depending on your area and local restaurant hours, we begin delivering as early as 7 am, and run as late
+              as 2 am. If a particular restaurant is not available for delivery, you will see it closed on the app.</p>
+          </div>
+          <button class="collapsible">
+            <div>How can I pay for GrubFood?</div>
+            <span class="material-symbols-outlined faq-sign">
+              add
+            </span>
+          </button>
+          <div class="content">
+            <span class="material-symbols-outlined faq-sign">
+              subdirectory_arrow_right
+            </span>
+            <p>GrubFood accepts a variety of payment methods like Debit/Credit Cards, GrubPay, Cash, and even PayPal, as
+              indicated by your primary payment method in the Grub app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+</body>
+
+
+
+<footer class="footer">
+  <div class="container grid grid--footer">
+    <div class="logo-col">
+      <a class="footer-logo">
+        <p><strong>Other Social Media Channels:</strong></p>
+      </a>
+
+      <ul class="social-links">
+        <li>
+          <a class="footer-link" href="#"">
+            <ion-icon class=" social-icon" name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">
+            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">
+            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <p class="copyright">
+      <p>Copyright &copy; <span class="year">2022</span> by Darius Koh Yu Feng.</p>
+      <p>This page was inspired and remodelled after Grab Singapore's corporate site and
+        this is the result of my personal practice. All rights and credits belong to Grab Singapore.</p>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</html>
