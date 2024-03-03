@@ -16,7 +16,7 @@
   .caption span.border {
     background-color: black;
     color: #fff;
-    padding: 20;
+    padding: 20px;
     font-size: 20px;
     letter-spacing: 10px;
     display: block;
@@ -71,5 +71,23 @@
   body,
   html {
     font-size: 50%;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .caption span.border {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    display: block;
   }
 }
