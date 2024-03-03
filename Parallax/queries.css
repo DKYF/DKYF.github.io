@@ -15,15 +15,41 @@
 
   .gallery {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     margin: 10px;
+  }
+
+  .intro1 {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+
+  .intro-header {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .intro {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 10px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   body,
   html {
     font-size: 55%;
+  }
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
   }
 }
 @media (max-width: 1000px) {
