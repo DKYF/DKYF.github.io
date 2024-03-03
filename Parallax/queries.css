@@ -1,0 +1,40 @@
+@media (max-width: 1400px) {
+  body,
+  html {
+    font-size: 60%;
+  }
+
+  .caption span.border {
+    background-color: black;
+    color: #fff;
+    padding: 20;
+    font-size: 20px;
+    letter-spacing: 10px;
+    display: block;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body,
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1000px) {
+  body,
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 800px) {
+  body,
+  html {
+    font-size: 50%;
+  }
+}
