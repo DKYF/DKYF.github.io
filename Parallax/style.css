@@ -41,6 +41,42 @@ html {
   color: #000;
 }
 
+.hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 1.5s;
+  filter: blur(10px);
+}
+
+.show {
+  opacity: 0.8;
+  transform: translateX(0);
+  transition: all 1.5s;
+  filter: blur(0);
+}
+
+.gone {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 2s;
+  filter: blur(10px);
+}
+
+.see {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 2s;
+  filter: blur(0);
+}
+
+.second {
+  transition-delay: 1s;
+}
+
+.third {
+  transition-delay: 2s;
+}
+
 .caption span.border {
   background-color: black;
   color: #fff;
@@ -82,6 +118,8 @@ html {
 .photos {
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
 }
 
