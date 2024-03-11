@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="Weather/style.css" />
+    <script defer src="Weather/apps.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Let's check the weather today!</h2>
+
+      <div class="search-box">
+        <input type="text" placeholder="Your location" />
+        <button><img src="Weather/gallery/search.png" /></button>
+      </div>
+
+      <div class="not-found">
+        <img src="Weather/gallery/404.png" />
+        <p>Oops! Invalid location :/</p>
+      </div>
+
+      <div class="weather-box">
+        <img src="" class="weather-icon" />
+        <p class="temperature"></p>
+        <p class="description"></p>
+
+        <div class="weather-details">
+          <div class="max-temp">
+            <div class="text">
+              <span></span>
+              <p>Max Temp.</p>
+              <img src="Weather/gallery/maxtemp.png" />
+            </div>
+          </div>
+          <div class="min-temp">
+            <div class="text">
+              <span></span>
+              <p>Min Temp.</p>
+              <img src="Weather/gallery/mintemp.png" />
+            </div>
+          </div>
+
+          <div class="humidity">
+            <div class="text">
+              <span></span>
+              <p>Humidity</p>
+              <img src="Weather/gallery/humidity.png" />
+            </div>
+          </div>
+          <div class="wind">
+            <div class="text">
+              <span></span>
+              <p>Wind Speed</p>
+              <img src="Weather/gallery/wind.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="footer">
+    <p>This page was inspired by ASMR Programming tutorial video on YouTube and this is the result of my personal JavaScript practice. All rights and credits belong to <a href="https://www.youtube.com/watch?v=iILFBGm_I9M&ab_channel=AsmrProg" target="_blank">AsmrProg</a>.</p>
+    </p>
+  </footer>
+</html>
